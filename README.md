@@ -339,11 +339,11 @@ Special thanks to:
 
 ### Saini Paul
 
-GitHub: https://sainipaul.vercel.app
+Portfolio Website: https://sainipaul.vercel.app
 
 ### Jit Hazra
 
-GitHub: https://jithazra.vercel.app
+Portfolio Website: https://jithazra.vercel.app
 
 ---
 
