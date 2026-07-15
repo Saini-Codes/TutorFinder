@@ -1,0 +1,2750 @@
+[
+    {
+        "subject": "Math",
+        "question": "What is the derivative of sin(x)?",
+        "expected": "cos(x)"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the integral of 1/x?",
+        "expected": "ln|x| + C"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the area of a triangle with base 5 and height 10?",
+        "expected": "25"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the solution to the equation x² - 4 = 0?",
+        "expected": "x = ±2"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the result of the determinant of a 2x2 identity matrix?",
+        "expected": "1"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the sum of the first n terms of an arithmetic sequence?",
+        "expected": "n/2 × (2a + (n - 1)d)"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the formula for the volume of a cylinder?",
+        "expected": "πr²h"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the eigenvalue of the identity matrix?",
+        "expected": "1"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the Fourier transform of a constant function?",
+        "expected": "Dirac delta function"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the logarithmic base used in natural logarithms?",
+        "expected": "e"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the number of degrees in a full circle?",
+        "expected": "360"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the sum of the interior angles of a polygon with n sides?",
+        "expected": "(n - 2) × 180"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the Taylor series expansion of e^x at x = 0?",
+        "expected": "1 + x + x²/2! + x³/3! + ..."
+    },
+    {
+        "subject": "Math",
+        "question": "What is the value of cos(π/2)?",
+        "expected": "0"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the standard deviation of a uniform distribution from 0 to 1?",
+        "expected": "1/√12"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the formula for the Pythagorean theorem?",
+        "expected": "a² + b² = c²"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the sum of the geometric series 1 + r + r² + r³ + ...?",
+        "expected": "1 / (1 - r), for |r| < 1"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the value of the integral of cos(x) from 0 to π?",
+        "expected": "0"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the inverse of a 2x2 matrix [a, b; c, d]?",
+        "expected": "1/(ad - bc) × [d, -b; -c, a]"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the limit of sin(x)/x as x approaches 0?",
+        "expected": "1"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the solution to the equation e^x = 5?",
+        "expected": "x = ln(5)"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the integral of x²?",
+        "expected": "x³/3 + C"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the range of the sine function?",
+        "expected": "[-1, 1]"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the inverse of the function f(x) = x³?",
+        "expected": "f⁻¹(x) = x^(1/3)"
+    },
+    {
+        "subject": "Math",
+        "question": "What is the value of 0! (zero factorial)?",
+        "expected": "1"
+    },
+    {
+        "subject": "English",
+        "question": "What is the difference between active and passive voice?",
+        "expected": "Active voice has the subject performing the action; passive voice has the subject receiving the action."
+    },
+    {
+        "subject": "English",
+        "question": "What are the key elements of a well-structured essay?",
+        "expected": "Introduction, thesis statement, body paragraphs with evidence, and a strong conclusion."
+    },
+    {
+        "subject": "English",
+        "question": "What are the components of an effective thesis statement?",
+        "expected": "A clear opinion, a specific topic, and a concise summary of the main points."
+    },
+    {
+        "subject": "English",
+        "question": "What is the role of figurative language in literature?",
+        "expected": "It enhances meaning and emotion through devices like simile, metaphor, and symbolism."
+    },
+    {
+        "subject": "English",
+        "question": "How can teachers encourage critical thinking in literature discussions?",
+        "expected": "By asking open-ended questions and promoting text-based analysis."
+    },
+    {
+        "subject": "English",
+        "question": "What are the benefits of teaching vocabulary in context?",
+        "expected": "It helps students understand word usage and meaning naturally through real language use."
+    },
+    {
+        "subject": "English",
+        "question": "How do literary devices like symbolism and metaphor enhance storytelling?",
+        "expected": "They add depth, meaning, and layers to the narrative, making it more engaging."
+    },
+    {
+        "subject": "English",
+        "question": "What is the importance of teaching grammar in context rather than in isolation?",
+        "expected": "It makes grammar more relevant and easier to apply in real communication."
+    },
+    {
+        "subject": "English",
+        "question": "How can teachers support students with different levels of writing ability?",
+        "expected": "By providing differentiated instruction and personalized feedback."
+    },
+    {
+        "subject": "English",
+        "question": "What is the role of literature in developing empathy and cultural awareness?",
+        "expected": "It exposes students to diverse perspectives and experiences, fostering understanding."
+    },
+    {
+        "subject": "English",
+        "question": "What are the key differences between British and American English?",
+        "expected": "Differences include spelling, vocabulary, pronunciation, and grammar usage."
+    },
+    {
+        "subject": "English",
+        "question": "How can teachers use peer reviews to improve student writing?",
+        "expected": "By encouraging constructive feedback and revision through collaborative evaluation."
+    },
+    {
+        "subject": "English",
+        "question": "What are the strategies for analyzing a poem effectively?",
+        "expected": "Read aloud, identify tone, examine structure, and interpret literary devices."
+    },
+    {
+        "subject": "English",
+        "question": "What is the difference between denotation and connotation?",
+        "expected": "Denotation is the literal meaning; connotation is the emotional or cultural association."
+    },
+    {
+        "subject": "English",
+        "question": "What are the essential features of a strong argument in persuasive writing?",
+        "expected": "Clear claim, logical reasoning, evidence, and rebuttal of counterarguments."
+    },
+    {
+        "subject": "English",
+        "question": "How can teachers help students understand the theme of a text?",
+        "expected": "By guiding them to identify recurring ideas, conflicts, and author's message."
+    },
+    {
+        "subject": "English",
+        "question": "What is the role of rhetoric in persuasive writing?",
+        "expected": "It uses ethos, pathos, and logos to convince and influence the audience."
+    },
+    {
+        "subject": "English",
+        "question": "How can teachers support students in writing strong conclusions?",
+        "expected": "By teaching them to restate the thesis, summarize key points, and provide closure."
+    },
+    {
+        "subject": "English",
+        "question": "What are the benefits of reading aloud in the classroom?",
+        "expected": "It improves fluency, listening skills, and comprehension while engaging students."
+    },
+    {
+        "subject": "English",
+        "question": "What is the importance of literary analysis in high school English?",
+        "expected": "It deepens understanding of texts and develops analytical and critical thinking skills."
+    },
+    {
+        "subject": "English",
+        "question": "How can technology be used to enhance English language learning?",
+        "expected": "Through interactive tools, digital texts, grammar apps, and collaborative platforms."
+    },
+    {
+        "subject": "English",
+        "question": "What are the differences between narrative, expository, and descriptive writing?",
+        "expected": "Narrative tells a story, expository explains information, and descriptive paints a picture."
+    },
+    {
+        "subject": "English",
+        "question": "How can teachers help students develop a personal writing voice?",
+        "expected": "By encouraging authentic expression, varied sentence styles, and reflective writing."
+    },
+    {
+        "subject": "English",
+        "question": "What is the role of peer collaboration in improving writing skills?",
+        "expected": "It fosters idea exchange, feedback, and shared learning among students."
+    },
+    {
+        "subject": "English",
+        "question": "How can teachers assess student writing effectively?",
+        "expected": "By using rubrics, providing constructive feedback, and focusing on growth."
+    },
+    {
+        "subject": "English",
+        "question": "What are the key elements of a strong character analysis?",
+        "expected": "Understanding motivations, traits, development, and relationships with other characters."
+    },
+    {
+        "subject": "English",
+        "question": "How can teachers incorporate diverse literature into the curriculum?",
+        "expected": "By selecting texts from various cultures, genres, and perspectives."
+    },
+    {
+        "subject": "English",
+        "question": "What is the significance of context in understanding a text?",
+        "expected": "Context provides background information that influences interpretation and meaning."
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the unit of force?",
+        "expected": "Newton"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the speed of light in a vacuum?",
+        "expected": "299,792,458 meters per second"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the symbol for acceleration due to gravity?",
+        "expected": "g"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the SI unit of mass?",
+        "expected": "kilogram"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the term for the rate of change of velocity?",
+        "expected": "acceleration"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the SI unit of power?",
+        "expected": "watt"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the law that states 'for every action, there is an equal and opposite reaction'?",
+        "expected": "Newton's Third Law of Motion"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the term for the energy of motion?",
+        "expected": "Kinetic Energy"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the unit of electric current?",
+        "expected": "Ampere"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the formula for Newton's second law of motion?",
+        "expected": "F = ma"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the unit of electrical resistance?",
+        "expected": "Ohm"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the force that opposes motion between two surfaces in contact?",
+        "expected": "Friction"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the term for the change in velocity per unit time?",
+        "expected": "acceleration"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the unit of temperature in the SI system?",
+        "expected": "Kelvin"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the term for the bending of light as it passes through different media?",
+        "expected": "Refraction"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the energy stored in an object due to its position?",
+        "expected": "Potential Energy"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the term for the rate of flow of electric charge?",
+        "expected": "Electric Current"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the SI unit of frequency?",
+        "expected": "Hertz"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the formula for calculating kinetic energy?",
+        "expected": "KE = 0.5 * m * v^2"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the SI unit of force?",
+        "expected": "Newton"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the unit for measuring magnetic field strength?",
+        "expected": "Tesla"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the term for the interaction between charged particles?",
+        "expected": "Electromagnetic Force"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the effect that causes an object to resist changes in motion?",
+        "expected": "Inertia"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the principle that energy cannot be created or destroyed?",
+        "expected": "Law of Conservation of Energy"
+    },
+    {
+        "subject": "Physics",
+        "question": "What is the force that attracts objects toward the Earth?",
+        "expected": "Gravity"
+    },
+{
+  "subject": "Biology",
+  "question": "What is the basic unit of life?",
+  "expected": "Cell"
+},
+{
+  "subject": "Biology",
+  "question": "What is the powerhouse of the cell?",
+  "expected": "Mitochondria"
+},
+{
+  "subject": "Biology",
+  "question": "What is the process by which plants make their own food?",
+  "expected": "Photosynthesis"
+},
+{
+  "subject": "Biology",
+  "question": "What is the molecule that carries genetic information?",
+  "expected": "DNA"
+},
+{
+  "subject": "Biology",
+  "question": "What is the process of cell division that results in two identical cells?",
+  "expected": "Mitosis"
+},
+{
+  "subject": "Biology",
+  "question": "What is the term for the study of heredity?",
+  "expected": "Genetics"
+},
+{
+  "subject": "Biology",
+  "question": "What is the main component of the cell membrane?",
+  "expected": "Phospholipids"
+},
+{
+  "subject": "Biology",
+  "question": "What is the structure that controls what enters and leaves the cell?",
+  "expected": "Cell membrane"
+},
+{
+  "subject": "Biology",
+  "question": "What is the liquid inside the cell where organelles are suspended?",
+  "expected": "Cytoplasm"
+},
+{
+  "subject": "Biology",
+  "question": "What is the process of making proteins from RNA?",
+  "expected": "Translation"
+},
+{
+  "subject": "Biology",
+  "question": "What is the term for organisms that make their own food?",
+  "expected": "Autotrophs"
+},
+{
+  "subject": "Biology",
+  "question": "What is the term for the movement of molecules from high to low concentration?",
+  "expected": "Diffusion"
+},
+{
+  "subject": "Biology",
+  "question": "What is the genetic material found in the nucleus?",
+  "expected": "DNA"
+},
+{
+  "subject": "Biology",
+  "question": "What is the enzyme that speeds up digestion of starch?",
+  "expected": "Amylase"
+},
+{
+  "subject": "Biology",
+  "question": "What is the organ responsible for pumping blood in the body?",
+  "expected": "Heart"
+},
+{
+  "subject": "Biology",
+  "question": "What is the term for the exchange of gases in the lungs?",
+  "expected": "Respiration"
+},
+{
+  "subject": "Biology",
+  "question": "What is the process by which organisms convert glucose into energy?",
+  "expected": "Cellular respiration"
+},
+{
+  "subject": "Biology",
+  "question": "What is the term for the study of ecosystems?",
+  "expected": "Ecology"
+},
+{
+  "subject": "Biology",
+  "question": "What is the pigment responsible for the green color in plants?",
+  "expected": "Chlorophyll"
+},
+{
+  "subject": "Biology",
+  "question": "What is the term for the structure that separates the nucleus from the cytoplasm?",
+  "expected": "Nuclear membrane"
+},
+{
+  "subject": "Biology",
+  "question": "What is the term for a group of similar organisms capable of interbreeding?",
+  "expected": "Species"
+},
+{
+  "subject": "Biology",
+  "question": "What is the term for the DNA sequence that codes for a specific protein?",
+  "expected": "Gene"
+},
+{
+  "subject": "Biology",
+  "question": "What is the term for the cycle in which cells grow and divide?",
+  "expected": "Cell cycle"
+},
+{
+  "subject": "Biology",
+  "question": "What is the molecule that stores energy in cells?",
+  "expected": "ATP"
+},
+{
+  "subject": "Biology",
+  "question": "What is the term for the breakdown of food molecules to release energy?",
+  "expected": "Catabolism"
+},
+    {
+  "subject": "Bengali",
+  "question": "Who wrote 'Gitanjali'?",
+  "expected": "Rabindranath Tagore"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the official language of Bangladesh?",
+  "expected": "Bengali"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the capital of West Bengal?",
+  "expected": "Kolkata"
+},
+{
+  "subject": "Bengali",
+  "question": "Who is known as the 'Nobel Laureate' from Bengal?",
+  "expected": "Rabindranath Tagore"
+},
+{
+  "subject": "Bengali",
+  "question": "Who is the author of 'Pather Panchali'?",
+  "expected": "Bibhutibhushan Bandyopadhyay"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the traditional Bengali dish made with fish?",
+  "expected": "Shorshe Ilish"
+},
+{
+  "subject": "Bengali",
+  "question": "Who is the famous Bengali poet known for 'Rabindra Sangeet'?",
+  "expected": "Rabindranath Tagore"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the popular Bengali festival celebrated with colors?",
+  "expected": "Dol Purnima"
+},
+{
+  "subject": "Bengali",
+  "question": "Who wrote the famous work 'Bengali Grammar'?",
+  "expected": "Ishwar Chandra Vidyasagar"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the title of the first Bengali novel?",
+  "expected": "Alaler Gharer Dulal"
+},
+{
+  "subject": "Bengali",
+  "question": "Who is the famous Bengali filmmaker of 'Satyajit Ray'?",
+  "expected": "Satyajit Ray"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the name of the Bengali language script?",
+  "expected": "Bengali Script"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the term for the Bengali New Year?",
+  "expected": "Poila Boishakh"
+},
+{
+  "subject": "Bengali",
+  "question": "Which city is known as the 'City of Joy'?",
+  "expected": "Kolkata"
+},
+{
+  "subject": "Bengali",
+  "question": "Who is the famous Bengali philosopher known for his teachings on education?",
+  "expected": "Swami Vivekananda"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the staple food grain in Bengali cuisine?",
+  "expected": "Rice"
+},
+{
+  "subject": "Bengali",
+  "question": "Who is known as the 'Shakespeare of Bengal'?",
+  "expected": "Bankim Chandra Chattopadhyay"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the word for 'love' in Bengali?",
+  "expected": "Bhalobasha"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the famous Bengali dessert made of milk and sugar?",
+  "expected": "Rasgulla"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the national flower of Bangladesh?",
+  "expected": "Shapla"
+},
+{
+  "subject": "Bengali",
+  "question": "Which river is known as the lifeline of Bengal?",
+  "expected": "Ganges"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the famous Bengali folk music genre?",
+  "expected": "Baul"
+},
+{
+  "subject": "Bengali",
+  "question": "What is the Bengali term for 'teacher'?",
+  "expected": "Shikkhok"
+},
+{
+  "subject": "Bengali",
+  "question": "Which famous Bengali author wrote 'Feluda'?",
+  "expected": "Satyajit Ray"
+},
+{
+  "subject": "Bengali",
+  "question": "Who is the founder of the 'Bengal Renaissance'?",
+  "expected": "Raja Ram Mohan Roy"
+},
+{
+  "subject": "Sanskrit",
+  "question": "Who is the author of the 'Bhagavad Gita'?",
+  "expected": "Vyasa"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit term for 'teacher'?",
+  "expected": "Acharya"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit word for 'peace'?",
+  "expected": "Shanti"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the meaning of 'Om' in Sanskrit?",
+  "expected": "Sacred Sound"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the term for 'soul' in Sanskrit?",
+  "expected": "Atman"
+},
+{
+  "subject": "Sanskrit",
+  "question": "Which language is considered the mother of Sanskrit?",
+  "expected": "Proto-Indo-European"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit word for 'water'?",
+  "expected": "Jalam"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit term for 'god'?",
+  "expected": "Deva"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit word for 'universe'?",
+  "expected": "Vishvam"
+},
+{
+  "subject": "Sanskrit",
+  "question": "Who is the author of the 'Ramayana'?",
+  "expected": "Valmiki"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit word for 'truth'?",
+  "expected": "Satya"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the term for 'heart' in Sanskrit?",
+  "expected": "Hridaya"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit word for 'knowledge'?",
+  "expected": "Jñāna"
+},
+{
+  "subject": "Sanskrit",
+  "question": "Who wrote the 'Mahabharata'?",
+  "expected": "Vyasa"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit term for 'wisdom'?",
+  "expected": "Prajñā"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit word for 'life'?",
+  "expected": "Jīvana"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit term for 'dharma'?",
+  "expected": "Righteous Duty"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the meaning of 'Aham Brahmasmi'?",
+  "expected": "I am the Absolute"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit word for 'friend'?",
+  "expected": "Mitra"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit word for 'mother'?",
+  "expected": "Mātā"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit term for 'eternity'?",
+  "expected": "Anantatva"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit term for 'yoga'?",
+  "expected": "Union"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit word for 'happiness'?",
+  "expected": "Sukha"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the term for 'godly' in Sanskrit?",
+  "expected": "Divya"
+},
+{
+  "subject": "Sanskrit",
+  "question": "What is the Sanskrit word for 'love'?",
+  "expected": "Prema"
+},
+   {
+  "subject": "History",
+  "question": "Who was the first President of the United States?",
+  "expected": "George Washington"
+},
+{
+  "subject": "History",
+  "question": "What year did World War I begin?",
+  "expected": "1914"
+},
+{
+  "subject": "History",
+  "question": "Who was the first emperor of China?",
+  "expected": "Qin Shi Huang"
+},
+{
+  "subject": "History",
+  "question": "What was the ancient name of Egypt's capital, Cairo?",
+  "expected": "Heliopolis"
+},
+{
+  "subject": "History",
+  "question": "Who was the first woman to fly solo across the Atlantic?",
+  "expected": "Amelia Earhart"
+},
+{
+  "subject": "History",
+  "question": "Who discovered America in 1492?",
+  "expected": "Christopher Columbus"
+},
+{
+  "subject": "History",
+  "question": "What was the name of the ship that carried the Pilgrims to America?",
+  "expected": "Mayflower"
+},
+{
+  "subject": "History",
+  "question": "Which country was ruled by Julius Caesar?",
+  "expected": "Rome"
+},
+{
+  "subject": "History",
+  "question": "In what year did the Titanic sink?",
+  "expected": "1912"
+},
+{
+  "subject": "History",
+  "question": "Who was the leader of the Soviet Union during World War II?",
+  "expected": "Joseph Stalin"
+},
+{
+  "subject": "History",
+  "question": "What year did the French Revolution begin?",
+  "expected": "1789"
+},
+{
+  "subject": "History",
+  "question": "Who invented the printing press?",
+  "expected": "Johannes Gutenberg"
+},
+{
+  "subject": "History",
+  "question": "What empire was ruled by Genghis Khan?",
+  "expected": "Mongol Empire"
+},
+{
+  "subject": "History",
+  "question": "What was the first country to land a human on the moon?",
+  "expected": "United States"
+},
+{
+  "subject": "History",
+  "question": "Who wrote the 'Iliad' and 'Odyssey'?",
+  "expected": "Homer"
+},
+{
+  "subject": "History",
+  "question": "What was the name of the treaty that ended World War I?",
+  "expected": "Treaty of Versailles"
+},
+{
+  "subject": "History",
+  "question": "Who was the first emperor of Rome?",
+  "expected": "Augustus"
+},
+{
+  "subject": "History",
+  "question": "What was the name of the first artificial satellite?",
+  "expected": "Sputnik"
+},
+{
+  "subject": "History",
+  "question": "Who was the first man to walk on the moon?",
+  "expected": "Neil Armstrong"
+},
+{
+  "subject": "History",
+  "question": "What year did the Berlin Wall fall?",
+  "expected": "1989"
+},
+{
+  "subject": "History",
+  "question": "What was the name of the ship that carried the first English settlers to Jamestown?",
+  "expected": "Susan Constant"
+},
+{
+  "subject": "History",
+  "question": "Who was the first female prime minister of the United Kingdom?",
+  "expected": "Margaret Thatcher"
+},
+{
+  "subject": "History",
+  "question": "Who was the first president of India?",
+  "expected": "Dr. Rajendra Prasad"
+},
+{
+  "subject": "History",
+  "question": "What empire was ruled by Alexander the Great?",
+  "expected": "Macedonian Empire"
+},
+{
+  "subject": "History",
+  "question": "What was the first battle of the American Civil War?",
+  "expected": "Battle of Fort Sumter"
+},{
+  "subject": "Geography",
+  "question": "What is the capital of France?",
+  "expected": "Paris"
+},
+{
+  "subject": "Geography",
+  "question": "Which country has the largest population?",
+  "expected": "China"
+},
+{
+  "subject": "Geography",
+  "question": "What is the longest river in the world?",
+  "expected": "Nile"
+},
+{
+  "subject": "Geography",
+  "question": "Which continent is the Sahara Desert located on?",
+  "expected": "Africa"
+},
+{
+  "subject": "Geography",
+  "question": "What is the largest ocean on Earth?",
+  "expected": "Pacific Ocean"
+},
+{
+  "subject": "Geography",
+  "question": "What is the highest mountain in the world?",
+  "expected": "Mount Everest"
+},
+{
+  "subject": "Geography",
+  "question": "Which country is known as the Land of the Rising Sun?",
+  "expected": "Japan"
+},
+{
+  "subject": "Geography",
+  "question": "What is the smallest country in the world?",
+  "expected": "Vatican City"
+},
+{
+  "subject": "Geography",
+  "question": "What is the capital of Japan?",
+  "expected": "Tokyo"
+},
+{
+  "subject": "Geography",
+  "question": "Which country is both in Europe and Asia?",
+  "expected": "Turkey"
+},
+{
+  "subject": "Geography",
+  "question": "What is the longest mountain range in the world?",
+  "expected": "Andes"
+},
+{
+  "subject": "Geography",
+  "question": "What is the capital of Australia?",
+  "expected": "Canberra"
+},
+{
+  "subject": "Geography",
+  "question": "Which river is the longest in Africa?",
+  "expected": "Nile"
+},
+{
+  "subject": "Geography",
+  "question": "Which country has the most islands?",
+  "expected": "Sweden"
+},
+{
+  "subject": "Geography",
+  "question": "What is the capital of Canada?",
+  "expected": "Ottawa"
+},
+{
+  "subject": "Geography",
+  "question": "Which desert is the largest in the world?",
+  "expected": "Antarctic Desert"
+},
+{
+  "subject": "Geography",
+  "question": "What is the largest country by area?",
+  "expected": "Russia"
+},
+{
+  "subject": "Geography",
+  "question": "Which country is the birthplace of the Olympic Games?",
+  "expected": "Greece"
+},
+{
+  "subject": "Geography",
+  "question": "What is the largest lake by area?",
+  "expected": "Caspian Sea"
+},
+{
+  "subject": "Geography",
+  "question": "What is the capital of the United Kingdom?",
+  "expected": "London"
+},
+{
+  "subject": "Geography",
+  "question": "What is the deepest ocean on Earth?",
+  "expected": "Pacific Ocean"
+},
+{
+  "subject": "Geography",
+  "question": "What is the largest island in the world?",
+  "expected": "Greenland"
+},
+{
+  "subject": "Geography",
+  "question": "What is the capital of the United States?",
+  "expected": "Washington, D.C."
+},
+{
+  "subject": "Geography",
+  "question": "What is the capital of Brazil?",
+  "expected": "Brasília"
+},{
+  "subject": "Statistics",
+  "question": "What is the measure of central tendency that represents the middle value?",
+  "expected": "Median"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for the average of a set of numbers?",
+  "expected": "Mean"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for the difference between the highest and lowest values in a dataset?",
+  "expected": "Range"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for the number of occurrences of a value in a dataset?",
+  "expected": "Frequency"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the statistical measure that describes the spread of data?",
+  "expected": "Standard Deviation"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for the probability of an event occurring?",
+  "expected": "Probability"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for a statistical relationship between two variables?",
+  "expected": "Correlation"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the measure that describes the variability of data?",
+  "expected": "Variance"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for the process of gathering data from a population?",
+  "expected": "Survey"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for a subset of a population used for statistical analysis?",
+  "expected": "Sample"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for a visual representation of data?",
+  "expected": "Graph"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for the likelihood of an event?",
+  "expected": "Probability"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the statistical term for the most frequent value?",
+  "expected": "Mode"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the name of the theorem that states the sum of the squared differences from the mean is minimized?",
+  "expected": "Least Squares Theorem"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for a random variable that can take on only specific values?",
+  "expected": "Discrete Variable"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for a numerical summary of a population?",
+  "expected": "Parameter"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for the probability distribution for a set of data?",
+  "expected": "Distribution"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for a type of data analysis involving inference?",
+  "expected": "Inferential Statistics"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the formula for calculating the mean?",
+  "expected": "Sum of values divided by count"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for a method used to estimate a population parameter from a sample?",
+  "expected": "Estimation"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the name of the distribution that describes the number of successes in a fixed number of trials?",
+  "expected": "Binomial Distribution"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the measure of the relationship between two variables?",
+  "expected": "Correlation Coefficient"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for a chart that shows the frequency of data in intervals?",
+  "expected": "Histogram"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for the probability distribution used for continuous variables?",
+  "expected": "Normal Distribution"
+},
+{
+  "subject": "Statistics",
+  "question": "What is the term for the confidence interval around a sample mean?",
+  "expected": "Margin of Error"
+},{
+  "subject": "Computer Science",
+  "question": "What is the primary unit of information in a computer?",
+  "expected": "Bit"
+},
+{
+  "subject": "Computer Science",
+  "question": "What does CPU stand for?",
+  "expected": "Central Processing Unit"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the term for a set of instructions executed by a computer?",
+  "expected": "Program"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the main memory of a computer?",
+  "expected": "RAM"
+},
+{
+  "subject": "Computer Science",
+  "question": "What does RAM stand for?",
+  "expected": "Random Access Memory"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the programming language known for web development?",
+  "expected": "JavaScript"
+},
+{
+  "subject": "Computer Science",
+  "question": "What does HTML stand for?",
+  "expected": "HyperText Markup Language"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the term for a file format used for compressed data?",
+  "expected": "ZIP"
+},
+{
+  "subject": "Computer Science",
+  "question": "What does 'URL' stand for?",
+  "expected": "Uniform Resource Locator"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the protocol used for transferring web pages?",
+  "expected": "HTTP"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the term for the hardware that stores data in a computer?",
+  "expected": "Hard Drive"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the most common programming language for Android development?",
+  "expected": "Java"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the name of the most widely used database management system?",
+  "expected": "MySQL"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the main component of a computer that performs calculations?",
+  "expected": "Processor"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the term for a block of code in a program?",
+  "expected": "Function"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the name of the operating system developed by Microsoft?",
+  "expected": "Windows"
+},
+{
+  "subject": "Computer Science",
+  "question": "What does SQL stand for?",
+  "expected": "Structured Query Language"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the term for the smallest unit of data that can be processed?",
+  "expected": "Bit"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the name of the computer science field that focuses on problem-solving and algorithms?",
+  "expected": "Computational Theory"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the term for a type of error in programming?",
+  "expected": "Bug"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the term for an approach to designing software using classes and objects?",
+  "expected": "Object-Oriented Programming"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the term for the process of converting source code into machine code?",
+  "expected": "Compilation"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the term for a network that connects computers across long distances?",
+  "expected": "Wide Area Network"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the name of the device that converts digital signals into analog signals?",
+  "expected": "Modem"
+},
+{
+  "subject": "Computer Science",
+  "question": "What is the acronym for a protocol used to send email?",
+  "expected": "SMTP"
+},
+    {
+    "subject": "Computer Application",
+    "question": "What is the term for software used for creating documents?",
+    "expected": "Word Processor"
+},
+{
+    "subject": "Computer Application",
+    "question": "What does PDF stand for?",
+    "expected": "Portable Document Format"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the most commonly used spreadsheet application?",
+    "expected": "Microsoft Excel"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the term for software used to navigate the web?",
+    "expected": "Web Browser"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the term for software used for video conferencing?",
+    "expected": "Video Conferencing Software"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the most widely used word processing software?",
+    "expected": "Microsoft Word"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the term for an application used to manage emails?",
+    "expected": "Email Client"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the term for software that helps manage databases?",
+    "expected": "Database Management System"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the most common software used for graphic design?",
+    "expected": "Adobe Photoshop"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the term for software used to play multimedia files?",
+    "expected": "Media Player"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the name of the most popular social media platform?",
+    "expected": "Facebook"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the software used to create presentations?",
+    "expected": "Microsoft PowerPoint"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the name of the popular photo-editing application?",
+    "expected": "Adobe Photoshop"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the term for software used for website development?",
+    "expected": "Web Development Tool"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the most commonly used video editing software?",
+    "expected": "Adobe Premiere Pro"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the name of the software that allows file sharing across a network?",
+    "expected": "File Sharing Software"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the name of the software used to simulate 3D environments?",
+    "expected": "Blender"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the software used to write code for software development?",
+    "expected": "Code Editor"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the term for software that protects against viruses?",
+    "expected": "Antivirus"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the software used for data analysis and statistical calculations?",
+    "expected": "SPSS"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the software used for managing customer relationships?",
+    "expected": "CRM Software"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the name of the software used for creating and viewing PDFs?",
+    "expected": "Adobe Acrobat"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the term for a program that automates tasks or actions?",
+    "expected": "Script"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the term for software that manages hardware resources?",
+    "expected": "Operating System"
+},
+{
+    "subject": "Computer Application",
+    "question": "What is the term for the software used to maintain a computer's file system?",
+    "expected": "File Manager"
+},{
+    "subject": "Business",
+    "question": "What is the term for the amount of money a business earns from its activities?",
+    "expected": "Revenue"
+},
+{
+    "subject": "Business",
+    "question": "What is the name for a document that outlines a business's goals and strategies?",
+    "expected": "Business Plan"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the process of promoting and selling products?",
+    "expected": "Marketing"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the financial statement that shows a company's profitability?",
+    "expected": "Income Statement"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the ownership of a company?",
+    "expected": "Equity"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for a business owned by one individual?",
+    "expected": "Sole Proprietorship"
+},
+{
+    "subject": "Business",
+    "question": "What is the name of the business model where a company sells products or services to customers?",
+    "expected": "B2C"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the total value of goods and services produced by a business?",
+    "expected": "Output"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the process of identifying, assessing, and controlling risks?",
+    "expected": "Risk Management"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the activities involved in producing goods and services?",
+    "expected": "Operations"
+},
+{
+    "subject": "Business",
+    "question": "What is the name of the document that summarizes the financial activities of a business?",
+    "expected": "Financial Statement"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the process of acquiring and managing financial resources?",
+    "expected": "Financial Management"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for a business's financial obligations?",
+    "expected": "Liabilities"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for a business's assets minus its liabilities?",
+    "expected": "Net Worth"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the amount of money a business owes?",
+    "expected": "Debt"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for a product or service that a business sells?",
+    "expected": "Offering"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the money a business makes after expenses?",
+    "expected": "Profit"
+},
+{
+    "subject": "Business",
+    "question": "What is the name of the entity that oversees business regulation in a country?",
+    "expected": "Regulatory Authority"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for a company that sells its stock to the public?",
+    "expected": "Public Company"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the amount of money left after subtracting costs?",
+    "expected": "Net Income"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for a business that focuses on research and development?",
+    "expected": "R&D Firm"
+},
+{
+    "subject": "Business",
+    "question": "What is the name of the pricing strategy where products are priced higher to create a sense of exclusivity?",
+    "expected": "Premium Pricing"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for the amount of products or services a company can produce?",
+    "expected": "Production Capacity"
+},
+{
+    "subject": "Business",
+    "question": "What is the term for a business that sells directly to the consumer?",
+    "expected": "Retailer"
+},
+{
+    "subject": "Business",
+    "question": "What is the name of a person who owns a business?",
+    "expected": "Entrepreneur"
+},
+    {
+    "subject": "Art",
+    "question": "What is the term for a visual art that involves drawing on a flat surface?",
+    "expected": "Sketching"
+},
+{
+    "subject": "Art",
+    "question": "What is the name of the famous painting by Leonardo da Vinci?",
+    "expected": "Mona Lisa"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for a sculpture that is free-standing and not attached to a background?",
+    "expected": "In the Round"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for the study of fine arts and their historical context?",
+    "expected": "Art History"
+},
+{
+    "subject": "Art",
+    "question": "What is the name of the style of painting characterized by a focus on light and color?",
+    "expected": "Impressionism"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for the technique of creating pictures using dots of color?",
+    "expected": "Pointillism"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for the process of mixing different media in a work of art?",
+    "expected": "Mixed Media"
+},
+{
+    "subject": "Art",
+    "question": "What is the name of the famous painting by Vincent van Gogh featuring a night sky?",
+    "expected": "The Starry Night"
+},
+{
+    "subject": "Art",
+    "question": "What is the name of the art technique that involves applying pigment to wet plaster?",
+    "expected": "Fresco"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for an abstract art style developed in the early 20th century?",
+    "expected": "Cubism"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for a painting created with oil-based paints?",
+    "expected": "Oil Painting"
+},
+{
+    "subject": "Art",
+    "question": "What is the name of the famous sculpture by Michelangelo?",
+    "expected": "David"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for the use of shadow and light to create depth in art?",
+    "expected": "Chiaroscuro"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for the study of art history and its cultural impact?",
+    "expected": "Art Criticism"
+},
+{
+    "subject": "Art",
+    "question": "What is the name of the art movement that emphasizes geometric shapes?",
+    "expected": "Geometric Abstraction"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for a landscape painting?",
+    "expected": "Landscape"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for the use of repetition in art to create pattern?",
+    "expected": "Rhythm"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for a visual art form that uses clay as its medium?",
+    "expected": "Ceramics"
+},
+{
+    "subject": "Art",
+    "question": "What is the name of the artist known for his use of surrealism and dream imagery?",
+    "expected": "Salvador Dalí"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for a painting technique where colors are applied in layers?",
+    "expected": "Glazing"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for a painting or sculpture made in honor of a person or event?",
+    "expected": "Monument"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for the artistic representation of the human form?",
+    "expected": "Figurative Art"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for a sculpture technique where the material is carved away?",
+    "expected": "Subtractive Sculpture"
+},
+{
+    "subject": "Art",
+    "question": "What is the name of the art movement that focuses on abstract forms and bold colors?",
+    "expected": "Expressionism"
+},
+{
+    "subject": "Art",
+    "question": "What is the term for an artwork that represents a real object or scene?",
+    "expected": "Realism"
+},
+    {
+    "subject": "Chemistry",
+    "question": "What is the term for the smallest unit of an element?",
+    "expected": "Atom"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the symbol for water?",
+    "expected": "H2O"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the name of the element with the symbol 'Na'?",
+    "expected": "Sodium"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for a substance that speeds up a chemical reaction?",
+    "expected": "Catalyst"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the SI unit for measuring temperature?",
+    "expected": "Kelvin"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for a liquid that can dissolve other substances?",
+    "expected": "Solvent"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for a chemical reaction that absorbs heat?",
+    "expected": "Endothermic Reaction"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for the process of a solid turning directly into a gas?",
+    "expected": "Sublimation"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the name of the gas that makes up most of Earth's atmosphere?",
+    "expected": "Nitrogen"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for the amount of matter in an object?",
+    "expected": "Mass"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for the number of protons in an atom's nucleus?",
+    "expected": "Atomic Number"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the name of the compound with the chemical formula 'H2O'?",
+    "expected": "Water"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for a reaction where two or more substances combine to form a new substance?",
+    "expected": "Synthesis Reaction"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the name of the element with the symbol 'O'?",
+    "expected": "Oxygen"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for a mixture that has the same composition throughout?",
+    "expected": "Homogeneous Mixture"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the name of the process of separating components of a mixture based on their boiling points?",
+    "expected": "Distillation"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for the energy needed to break a chemical bond?",
+    "expected": "Bond Energy"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the name of the process where a substance is dissolved in a solvent?",
+    "expected": "Dissolution"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for the measure of acidity or alkalinity?",
+    "expected": "pH"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for a substance that has a pH greater than 7?",
+    "expected": "Base"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for a substance that donates a proton in a chemical reaction?",
+    "expected": "Acid"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for the measure of how much solute is dissolved in a solution?",
+    "expected": "Concentration"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the symbol for the element with the atomic number 1?",
+    "expected": "H"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for the process of converting a liquid into a gas?",
+    "expected": "Evaporation"
+},
+{
+    "subject": "Chemistry",
+    "question": "What is the term for a substance that can conduct electricity?",
+    "expected": "Electrolyte"
+},{
+    "subject": "Law",
+    "question": "What is the term for the system of government where power is vested in a single ruler?",
+    "expected": "Autocracy"
+},
+{
+    "subject": "Law",
+    "question": "What is the name of the document that sets out the fundamental laws of a nation?",
+    "expected": "Constitution"
+},
+{
+    "subject": "Law",
+    "question": "What is the term for a system of government where power is divided between national and regional authorities?",
+    "expected": "Federalism"
+},
+{
+    "subject": "Law",
+    "question": "What is the term for the process of making and enforcing laws?",
+    "expected": "Legislation"
+},
+{
+    "subject": "Law",
+    "question": "What is the name of the highest court in the United States?",
+    "expected": "Supreme Court"
+},
+{
+    "subject": "Law",
+    "question": "What is the term for a law passed by a legislative body?",
+    "expected": "Statute"
+},
+{
+    "subject": "Law",
+    "question": "What is the term for the legal responsibility for one’s actions?",
+    "expected": "Liability"
+},
+{
+    "subject": "Law",
+    "question": "What is the name of the legal principle that allows courts to determine the constitutionality of laws?",
+    "expected": "Judicial Review"
+},
+{
+    "subject": "Law",
+    "question": "What is the term for the right of citizens to vote?",
+    "expected": "Suffrage"
+},
+{
+    "subject": "Law",
+    "question": "What is the term for the legal principle that allows the government to take private property for public use?",
+    "expected": "Eminent Domain"
+},
+{
+    "subject": "Law",
+    "question": "What is the term for the legal process by which a government officially recognizes a country?",
+    "expected": "Diplomatic Recognition"
+},
+{
+    "subject": "Law",
+    "question": "What is the term for the collection of laws governing business and commerce?",
+    "expected": "Commercial Law"
+},
+{
+    "subject": "Law",
+    "question": "What is the term for the legal rules governing criminal conduct?",
+    "expected": "Criminal Law"
+},
+{
+    "subject": "Law",
+    "question": "What is the term for the legal protection against self-incrimination?",
+    "expected": "Right to Remain Silent"
+},
+    {
+    "subject": "Political Science",
+    "question": "What is the term for a system of government where power is divided between national and regional authorities?",
+    "expected": "Federalism"
+},
+{
+    "subject": "Political Science",
+    "question": "What is the term for a form of government in which power is held by a few individuals?",
+    "expected": "Oligarchy"
+},
+{
+    "subject": "Political Science",
+    "question": "What is the name of the political philosophy advocating for the redistribution of wealth and the abolition of private property?",
+    "expected": "Communism"
+},
+{
+    "subject": "Political Science",
+    "question": "What is the term for the separation of powers into branches of government?",
+    "expected": "Checks and Balances"
+},
+{
+    "subject": "Political Science",
+    "question": "What is the term for a person who advocates or practices democracy?",
+    "expected": "Democrat"
+},
+{
+    "subject": "Political Science",
+    "question": "What is the name of the international agreement designed to promote peace and cooperation?",
+    "expected": "Treaty"
+},
+{
+    "subject": "Political Science",
+    "question": "What is the term for a type of government where power is held by the people or elected representatives?",
+    "expected": "Democracy"
+},
+{
+    "subject": "Political Science",
+    "question": "What is the term for the body of laws that govern the relationship between a state and its citizens?",
+    "expected": "Constitutional Law"
+},
+{
+    "subject": "Political Science",
+    "question": "What is the term for the principle that no one is above the law?",
+    "expected": "Rule of Law"
+},
+{
+    "subject": "Political Science",
+    "question": "What is the name of the body that represents the collective decision-making process of international law?",
+    "expected": "United Nations"
+},{
+    "subject": "Accounting",
+    "question": "What is the term for the financial statement that shows a company's assets, liabilities, and equity?",
+    "expected": "Balance Sheet"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the accounting process of allocating expenses over a period of time?",
+    "expected": "Amortization"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the financial statement that shows a company's revenue and expenses?",
+    "expected": "Income Statement"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the process of keeping track of financial transactions?",
+    "expected": "Bookkeeping"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the name of the accounting principle that requires expenses to be recorded when incurred?",
+    "expected": "Matching Principle"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the financial statement that provides a company's cash inflows and outflows?",
+    "expected": "Cash Flow Statement"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the accounting equation that defines a company's financial position?",
+    "expected": "Assets = Liabilities + Equity"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the process of adjusting entries in accounting records?",
+    "expected": "Adjusting Entries"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the analysis of a company's financial statements to make business decisions?",
+    "expected": "Financial Analysis"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the name of the financial statement that records revenues, expenses, and profits?",
+    "expected": "Profit and Loss Statement"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the process of assigning a value to an asset?",
+    "expected": "Valuation"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the cost of goods sold in a business?",
+    "expected": "COGS"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for a business's short-term obligations?",
+    "expected": "Current Liabilities"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for a company's long-term debts or obligations?",
+    "expected": "Long-Term Liabilities"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the accounting method where income is recorded when it is earned?",
+    "expected": "Accrual Accounting"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the accounting method that records revenue when payment is received?",
+    "expected": "Cash Accounting"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the financial analysis that compares a company's financial performance over time?",
+    "expected": "Trend Analysis"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the system of accounting that records transactions in two accounts?",
+    "expected": "Double-Entry Accounting"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the recording of a transaction that is not immediately paid for?",
+    "expected": "Accounts Payable"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the formal documentation of a company's financial performance?",
+    "expected": "Financial Statement"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the liability a company owes to its creditors?",
+    "expected": "Debt"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the financial report that outlines a company's activities over a period of time?",
+    "expected": "Annual Report"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for a detailed list of all financial transactions during a period?",
+    "expected": "General Ledger"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the name of the document used for tracking the money a company owes?",
+    "expected": "Accounts Payable Ledger"
+},
+{
+    "subject": "Accounting",
+    "question": "What is the term for the accounting practice of ensuring that revenues and expenses are recorded in the correct period?",
+    "expected": "Accrual Basis"
+},
+    {
+    "subject": "Architecture",
+    "question": "What is the term for the design and planning of buildings?",
+    "expected": "Architecture"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the style of architecture that emphasizes simplicity and clean lines?",
+    "expected": "Modernism"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the name of the architectural style that originated in ancient Greece and Rome?",
+    "expected": "Classical Architecture"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the structure that supports the roof of a building?",
+    "expected": "Beam"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the process of designing and constructing a building?",
+    "expected": "Building Design"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the name of the material often used for building walls and foundations?",
+    "expected": "Concrete"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the opening in a wall used for light and ventilation?",
+    "expected": "Window"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the decorative features on the exterior of a building?",
+    "expected": "Ornamentation"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the name of the roof shape that slopes on all four sides?",
+    "expected": "Hip Roof"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the interior space of a building?",
+    "expected": "Interior"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the vertical structural element that supports a building's weight?",
+    "expected": "Column"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the material commonly used for roofing?",
+    "expected": "Shingles"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the name of the architectural feature used to support a bridge?",
+    "expected": "Arch"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the process of restoring and preserving old buildings?",
+    "expected": "Renovation"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for a building's foundation?",
+    "expected": "Base"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the decorative woodwork on ceilings and walls?",
+    "expected": "Molding"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the study of the history of buildings and design?",
+    "expected": "Architectural History"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for a building's internal layout?",
+    "expected": "Floor Plan"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for a building designed for public or commercial use?",
+    "expected": "Commercial Building"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the use of large windows and open spaces in modern design?",
+    "expected": "Open Plan"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the use of columns and arches in ancient Roman architecture?",
+    "expected": "Romanesque"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the style of architecture characterized by pointed arches?",
+    "expected": "Gothic Architecture"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the architectural technique of combining different elements to form a design?",
+    "expected": "Synthesis"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the name of the person who designs buildings?",
+    "expected": "Architect"
+},
+{
+    "subject": "Architecture",
+    "question": "What is the term for the decorative elements added to a building's exterior?",
+    "expected": "Facade Decoration"
+},{
+    "subject": "Agriculture",
+    "question": "What is the term for the practice of growing crops and raising animals?",
+    "expected": "Farming"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the process of growing plants in water without soil?",
+    "expected": "Hydroponics"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the practice of planting crops in alternating rows to improve soil quality?",
+    "expected": "Crop Rotation"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the name of the process by which plants make their own food using sunlight?",
+    "expected": "Photosynthesis"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the scientific study of soil?",
+    "expected": "Pedology"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for a farm used to raise livestock?",
+    "expected": "Ranch"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the name of the type of agriculture focused on small-scale farming for local consumption?",
+    "expected": "Subsistence Farming"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for a crop that is grown for sale rather than for personal consumption?",
+    "expected": "Cash Crop"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the name of the type of agriculture where crops are grown on a large scale using modern technology?",
+    "expected": "Commercial Farming"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the process of breeding plants or animals with desirable traits?",
+    "expected": "Selective Breeding"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for a large-scale agricultural operation that produces a single crop?",
+    "expected": "Monoculture"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the process of controlling pests that harm crops?",
+    "expected": "Pest Management"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the name of the practice that involves rotating different crops in a field to maintain soil health?",
+    "expected": "Crop Rotation"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the use of animals for agricultural work, such as plowing fields?",
+    "expected": "Animal Drafting"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the process of watering crops?",
+    "expected": "Irrigation"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the method of planting crops in rows or plots?",
+    "expected": "Row Planting"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the name of the term used for organic farming techniques?",
+    "expected": "Sustainable Farming"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the name of the tool used for digging and tilling soil?",
+    "expected": "Hoe"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for an area of land that is used for farming?",
+    "expected": "Farmland"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the practice of growing crops without the use of chemical fertilizers or pesticides?",
+    "expected": "Organic Farming"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for a system of farming that focuses on sustainability and reducing environmental impact?",
+    "expected": "Eco-Friendly Agriculture"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the cultivation of trees for timber, paper, and other wood products?",
+    "expected": "Forestry"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the name of the practice that involves using animals to help pollinate crops?",
+    "expected": "Animal Pollination"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the use of irrigation systems to manage water in farming?",
+    "expected": "Water Management"
+},
+{
+    "subject": "Agriculture",
+    "question": "What is the term for the farming technique that involves planting crops on raised beds to prevent soil erosion?",
+    "expected": "Raised Bed Farming"
+},
+    {
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the process by which the body takes in and uses food?",
+    "expected": "Nutrition"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the substance in food that provides energy?",
+    "expected": "Carbohydrate"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the name of the essential nutrient that helps build and repair tissues?",
+    "expected": "Protein"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the nutrient that provides the body with vitamins and minerals?",
+    "expected": "Micronutrients"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the type of nutrient that is essential for maintaining healthy bones and teeth?",
+    "expected": "Calcium"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the type of nutrient that is a primary source of energy?",
+    "expected": "Carbohydrate"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the essential fatty acids that the body cannot produce on its own?",
+    "expected": "Omega-3"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the type of carbohydrate that is digested slowly and provides long-lasting energy?",
+    "expected": "Complex Carbohydrate"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the name of the vitamin that helps in calcium absorption?",
+    "expected": "Vitamin D"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the vitamin that is vital for vision and immune function?",
+    "expected": "Vitamin A"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the name of the mineral that helps transport oxygen in the blood?",
+    "expected": "Iron"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the process of converting food into usable energy?",
+    "expected": "Metabolism"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the condition that results from a deficiency of vitamin C?",
+    "expected": "Scurvy"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for a substance that helps regulate body functions and is found in food?",
+    "expected": "Nutrient"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the amount of energy provided by food?",
+    "expected": "Calorie"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the name of the protein found in wheat, barley, and rye that causes an allergic reaction in some people?",
+    "expected": "Gluten"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the type of sugar that provides quick energy?",
+    "expected": "Glucose"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the plant-based substance that aids in digestion?",
+    "expected": "Fiber"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the condition of having too little body fat?",
+    "expected": "Underweight"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the name of the vitamin that helps with blood clotting?",
+    "expected": "Vitamin K"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the essential nutrient that helps the body absorb fat-soluble vitamins?",
+    "expected": "Fat"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the nutrient that helps regulate body temperature and lubricates joints?",
+    "expected": "Water"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for a deficiency in protein intake?",
+    "expected": "Protein-Energy Malnutrition"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the mineral essential for nerve function and muscle contraction?",
+    "expected": "Potassium"
+},
+{
+    "subject": "Food & Nutrition",
+    "question": "What is the term for the amount of water a person should consume to stay hydrated?",
+    "expected": "Daily Water Intake"
+},
+    {
+    "subject": "Molecular Biology",
+    "question": "What is the term for the molecule that carries genetic information?",
+    "expected": "DNA"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the process of copying DNA to RNA?",
+    "expected": "Transcription"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the name of the molecule that carries amino acids during protein synthesis?",
+    "expected": "tRNA"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the enzyme responsible for DNA replication?",
+    "expected": "DNA Polymerase"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the process by which RNA is used to synthesize proteins?",
+    "expected": "Translation"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the name of the structure that holds two strands of DNA together?",
+    "expected": "Hydrogen Bonds"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the unit of heredity in an organism?",
+    "expected": "Gene"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the type of RNA that carries genetic information from DNA to the ribosome?",
+    "expected": "mRNA"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the specific sequence of DNA that codes for a protein?",
+    "expected": "Gene"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the structure where proteins are synthesized?",
+    "expected": "Ribosome"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the process by which a cell divides into two identical daughter cells?",
+    "expected": "Mitosis"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the molecule that helps in protein folding?",
+    "expected": "Chaperone"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the sequence of amino acids in a protein?",
+    "expected": "Primary Structure"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the name of the molecule that helps catalyze biochemical reactions?",
+    "expected": "Enzyme"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the process of converting RNA back into DNA?",
+    "expected": "Reverse Transcription"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the exchange of genetic material between homologous chromosomes?",
+    "expected": "Crossing Over"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for a change in the DNA sequence?",
+    "expected": "Mutation"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the name of the technique used to separate DNA fragments by size?",
+    "expected": "Gel Electrophoresis"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the chemical bonds that hold the two strands of DNA together?",
+    "expected": "Hydrogen Bonds"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the mechanism that controls the expression of genes?",
+    "expected": "Gene Regulation"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the name of the molecule that helps maintain the structure of chromosomes?",
+    "expected": "Histone"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the organelle responsible for energy production in the cell?",
+    "expected": "Mitochondrion"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the biological process of copying a gene from DNA into RNA?",
+    "expected": "Transcription"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the process by which proteins are broken down?",
+    "expected": "Proteolysis"
+},
+{
+    "subject": "Molecular Biology",
+    "question": "What is the term for the region of the chromosome that controls the transcription of a gene?",
+    "expected": "Promoter"
+},
+    {
+        "subject": "Education",
+        "question": "What is the term for the process of teaching and learning?",
+        "expected": "Education"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a formal school system?",
+        "expected": "Formal Education"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a type of education that takes place outside traditional schools?",
+        "expected": "Non-formal Education"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for the highest level of education?",
+        "expected": "Doctorate or PhD"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a structured program of study?",
+        "expected": "Curriculum"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a person's ability to read and write?",
+        "expected": "Literacy"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for the written or spoken content of a subject?",
+        "expected": "Curriculum or Syllabus"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for an organized class or session for learning?",
+        "expected": "Lesson"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a test designed to assess knowledge or ability?",
+        "expected": "Examination or Test"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a teacher in a school?",
+        "expected": "Educator or Teacher"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a method of teaching that involves learning by doing?",
+        "expected": "Experential Learning"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a series of educational qualifications?",
+        "expected": "Academic Credentials or pathaway"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a university or college degree?",
+        "expected": "Degree"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for the process of preparing students for work?",
+        "expected": "Vocational Education or Career Education"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for an educational institution for young children?",
+        "expected": "Preschool or Kindergarten"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for the study of the mind and behavior?",
+        "expected": "Psychology"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a learning method based on inquiry and problem-solving?",
+        "expected": "Problem-Based Learning"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for an educational qualification awarded after completing a higher level of study?",
+        "expected": "Postgraduate Degree"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a person who specializes in teaching?",
+        "expected": "Educator or Teacher"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a test that measures academic achievement?",
+        "expected": "Standardized Test"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a method of learning that uses digital tools and resources?",
+        "expected": "E-Learning"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for an educational philosophy that emphasizes self-directed learning?",
+        "expected": "Montessori Method"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for the act of giving someone an official degree or diploma?",
+        "expected": "Graduation"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for the study and practice of teaching?",
+        "expected": "Pedagogy"
+    },
+    {
+        "subject": "Education",
+        "question": "What is the term for a type of school that focuses on vocational or technical education?",
+        "expected": "Trade school"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a type of media that provides news and information?",
+        "expected": "News Media"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for the process of gathering and reporting news?",
+        "expected": "Journalism"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for the person who writes or reports news?",
+        "expected": "Journalist"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a written or broadcast report on a particular event?",
+        "expected": "News Report"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for the act of interviewing people to gather information?",
+        "expected": "Interviewing"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a news organization or publication?",
+        "expected": "News Outlet"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for the process of fact-checking information before publication?",
+        "expected": "Verification"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a story that provides in-depth analysis of a news topic?",
+        "expected": "Feature Story"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a photograph or video accompanying a news story?",
+        "expected": "Visual Media"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for news coverage that emphasizes sensational or shocking events?",
+        "expected": "Tabloid Journalism"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a written account of events that is often published online?",
+        "expected": "Online Article or Blog Post"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for the act of presenting news in an unbiased manner?",
+        "expected": "Objectivity"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a news outlet that provides analysis and opinion?",
+        "expected": "Editorial Journalism"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a specific type of journalism focused on political news?",
+        "expected": "Political Journalism"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for the first draft or outline of a news report?",
+        "expected": "Rough Draft"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a journalist's source of information?",
+        "expected": "Source"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a report that covers the same topic from multiple perspectives?",
+        "expected": "Multimedia Report"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for the ethical guidelines that journalists follow?",
+        "expected": "Journalistic Ethics"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a brief, factual news story?",
+        "expected": "News Brief"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for the primary goal of journalism to inform the public?",
+        "expected": "Public Service"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a type of journalism that aims to expose corruption or wrongdoing?",
+        "expected": "Investigative Journalism"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a type of journalism that focuses on entertainment news?",
+        "expected": "Entertainment Journalism"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a piece of investigative journalism that uncovers hidden truths?",
+        "expected": "EXPOSE"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a journalist who specializes in writing about business or finance?",
+        "expected": "Business Journalist"
+    },
+    {
+        "subject": "Journalism",
+        "question": "What is the term for a written account of an event or issue from the reporter's point of view?",
+        "expected": "Feature Story "
+    }
+]

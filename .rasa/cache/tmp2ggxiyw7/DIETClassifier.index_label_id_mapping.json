@@ -1,0 +1,17 @@
+{
+  "0": "affirm",
+  "1": "ask_tutor_commerce",
+  "2": "ask_tutor_cs",
+  "3": "ask_tutor_english",
+  "4": "ask_tutor_exam",
+  "5": "ask_tutor_language",
+  "6": "ask_tutor_math",
+  "7": "ask_tutor_science",
+  "8": "bot_challenge",
+  "9": "deny",
+  "10": "goodbye",
+  "11": "greet",
+  "12": "mood_great",
+  "13": "mood_unhappy",
+  "14": "thank_you"
+}

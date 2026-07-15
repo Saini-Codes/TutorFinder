@@ -1,0 +1,10 @@
+{
+  "0": "goodbye",
+  "1": "greet",
+  "2": "login",
+  "3": "profile_details_update",
+  "4": "profile_picture_update",
+  "5": "registration",
+  "6": "student_context",
+  "7": "teacher_context"
+}

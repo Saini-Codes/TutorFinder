@@ -1,0 +1,175 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - about_tutorfinder
+  - about_chatbot
+  - about_developer
+  - registration
+  - login
+  - student_context
+  - teacher_context
+  - profile_details_update
+  - profile_picture_update
+  - email_update
+  - search_tutor
+  - search_tutor_by_name_context
+  - search_tutor_by_subject_context
+  - search_tutor_by_location_context
+  - rate_student
+  - feedback_complain_report_student_teacher
+  - rate_teacher
+  - view_ratings_of_teacher
+  - view_ratings_of_myself
+  - view_student_list
+  - genuine_tutor
+  - tutor_approve_notification
+  - tutor_reject_notification
+  - student_apply_notification
+  - interview_system
+  - complete_interview
+  - minimum_qualifications
+  - interview_pass
+  - interview_fail
+  - earn_trusted_badge
+  - about_trusted_badge
+  - classes
+  - payment_query
+  - apply_for_tutor
+  - fees_of_tutor
+
+entities: []
+
+slots:
+  user_context:
+    type: categorical
+    values:
+      - registration
+      - login
+      - student
+      - teacher
+      - search_tutor
+    influence_conversation: true
+    mappings:
+      - type: custom
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+
+  utter_about_tutorfinder:
+    - text: "TutorFinder is a platform that connects students with tutors.\n1. We provide a safe and efficient way for students to find tutors for their academic needs.\n2. We provide teachers a platform to showcase their skills and connect with students. More aboout us can be found on our website's front page.\n Thanks for using TutorFinder!"
+
+  utter_about_chatbot:
+    - text: "Hey, I am TutorFinder Assistant. Your virtual assistant for all things related to TutorFinder. I can help you with all of your queries regarding TutorFinder platform. Tell me \n How can I assist you?"
+
+  utter_about_developer:
+    - text: "TutorFinder is developed by Ms. Saini Paul and Mr. Jit Hazra on the occasion of their 3rd Year Project Submission in the Department of Computer Science, University Of Kalyani, Kolkata, India. You can find more about developers on our website's front page at the bottom by pressing the ‘About Developers’ button."
+
+  utter_ask_student_or_teacher:
+    - text: "Are you a student or a teacher?"
+
+  utter_student_registration:
+    - text: "To register as a student on TutorFinder:\n1. Open the TutorFinder website.\n2. Click on the ‘Student Sign Up’ button.\n3. Fill in the required details.\n4. An OTP will be sent to your email.\n5. After OTP verification, you’ll receive login credentials via email."
+
+  utter_teacher_registration:
+    - text: "To register as a teacher on TutorFinder:>\n1. Click on ‘Tutor Sign Up’ button.\n2. Fill out your profile and subjects.\n3. Upload documents.\n4. Wait for admin approval.\n5. Once approved, you can login using your credentials sent to you email and start teaching."
+
+  utter_student_login:
+    - text: "To login as a student:\n1. Click on the ‘Student Log In’ button.\n2. Enter your credentials.\n3. Click ‘Log In’ to access your profile."
+
+
+  utter_teacher_login:
+    - text: "To login as a teacher:\n1. Click on the ‘Tutor Log In’ button.\n2. Enter your credentials.\n3. Click ‘Log In’ to access your profile."
+
+  utter_profile_details_update:
+    - text: "To update your each and every details on TutorFinder:\n1. Open the TutorFinder website and Log In with your credentials.\n2. After logging in, click on ‘See Details’ option on your profile..\n3. Here, you can see your personal details.\n4. Edit the details which you want to change.\n5. After editing, click the ‘Update Profile’ button.\nYour details will be updated successfully."
+
+  utter_profile_picture_update:
+    - text: "To update your profile picture on TutorFinder:\n1. Log in to your TutorFinder account.\n2. Click on the ‘Change Photo’ button.\n4. Upload a new picture from your device.\n3. Click ‘Open’ to update your profile picture."
+
+  utter_email_update:
+    - text: "You can't diectly change your email by yourself !!\n To update your email on TutorFinder:\n Contact the TutorFinder support team via email: tutor.finder.js@gmail.com at any time.\n Provide your current email and the new email you want to use.\n The support team will assist you in updating your email address. \n Please allow some time for the update to be processed."
+
+  utter_ask_subject_or_name_or_location:
+    - text: "We have three ways to search for a tutor:\n1. By Subject: Specify the subject you need help with.\n2. By Name: Provide the name of the tutor you are looking for.\n3. By Location: The tutors, who are in 10KM radius, will be displayed.\n\nHow would you like to search for a tutor?"
+
+  utter_search_tutor_by_subject_context:
+    - text: "To search for a tutor by subject:\n1. Click on the ‘Search Tutor By Subject’ option on your student profile.\n2. Enter the subject name you need help with.\n3. Click ‘Search Tutor’ option to find available tutors.\n4. You can view their profiles and apply to them."
+
+  utter_search_tutor_by_name_context:
+    - text: "To search for a tutor by name:\n1. Click on the ‘Search Tutor By Name’ option on your student profile.\n2. Enter the tutor's name you are looking for.\n3. Click ‘Search Tutor’ option to find the tutor.\n4. You can view their profile and apply to them."
+
+  utter_search_tutor_by_location_context:
+    - text: "To search for a tutor by location:\n1. Click on the ‘Search Tutor By Location’ option on your student profile.\n2. Click ‘Search Tutor’ option to find tutors within a 10KM radius.\n4. You can view their profiles and apply to them."
+
+  utter_apply_for_tutor: 
+    - text: "To apply for a tutor:\n1. Log in to your student account.\n2. Search for a tutor by any of the three methods.\n3. Click on the ‘Apply Now’ button on the tutor’s profile.\n4. After applying, wait for the teacher to accept your request.\n5. Once accepted, you can communicate with the teacher and start your classes."
+
+  utter_fees_of_tutor:
+    - text: "You can see the fees of every subject in the Tutor Card while applying the Teacher. The fees are listed as per month"
+
+  utter_rate_student:
+    - text: "Sorry to say but you can't rate a student. But You can give feed back about a student by contacting the TutorFinder support team via email: tutor.finder.js@gmail.com at any time.\n Provide your feedback about the student.\n The support team will assist you in processing your feedback. \n Please allow some time for the feedback to be processed."
+  
+  utter_feedback_complain_report_student_teacher:
+    - text: "To give feedback or complain about a student or teacher:\n1. Contact the TutorFinder support team via email: tutor.finder.js@gmail.com at any time.\n2. Provide your feedback or complaint about the student or teacher with their user details (i.e. name, email).\n3. The support team will assist you in processing your feedback or complaint.\nPlease allow some time for the feedback or complaint to be processed."
+
+  utter_rate_teacher:
+    - text: "To rate a tutor:\n1. Log in to your TutorFinder account as a student.\n2. Search for a tutor to rate.\n3. Click on the ‘Rate’ button under their name.\n4. Select the rating and provide any additional feedback.\n5. Click ‘Submit’ to save your rating."
+
+  utter_view_ratings_of_teacher:
+    - text: "To view rating or reviews of a teacher: \n1. Log in to your TutorFinder account as a student.\n2. Search for the tutor you want to see reviews of.\n3. Click on the ‘View Reviews’ option.\n4. You can see all the reviews of the students about the teacher."
+
+  utter_view_ratings_of_myself:
+    - text: "Tutors can check their reviews. To check reviews about yourself: \n1. Log in to your TutorFinder account.\n2. Click on the ‘View Ratings’ option on your profile.\n3. You can see all the reviews of the students about you."
+
+  utter_view_student_list:
+    - text: "To check your student list who applied to you: \n1. Log in to your tutor account.\n2. Click on ‘Student Waitlist’ option to see the student list. \n3. You can accept or Reject teh student from the list according to your choice."
+  
+  utter_genuine_tutor:
+    - text: "All tutors are genuine. We verify their CVs before approval, and some also have a Trusted Badge after clearing interviews."
+
+  utter_tutor_approve_notification:
+    - text: "You will receive an email notification on your registered email when a tutor approves your application. Please check your email regularly."
+
+  utter_tutor_reject_notification:
+    - text: "You will receive an email notification on your registered email when a tutor rejects your application. Please check your email regularly."
+
+  utter_student_apply_notification:
+    - text: "You will receive an email notification on your registered email when a student applies to you. Please check your email regularly."
+
+  utter_interview_system:
+    - text: "The interview system allows tutors to earn a Trusted Badge by demonstrating their subject knowledge, making their profiles more attractive to students."
+
+  utter_complete_interview: 
+    - text: "To complete an interview:\n1. Log in to your TutorFinder account as a teacher.\n2. If you haven’t completed the interview, you will see a notification with a ‘Complete Interview’ option.\n3. Click it.\nYou will have to answer 10 one-word questions based on your subject within 8 minutes.\n If your score is below 5, you will need to reattempt the interview, Otherwise, you will not receive your Trusted Badge."
+
+  utter_minimum_qualifications:
+    - text: "Teacher must have completed their graduation and have certificate to apply for a tutor."  
+
+  utter_interview_pass:
+    - text: "If You pass the Interview, you will get a Trusted Badge on your profile. The trusted badge will increase your chances of getting selected by students."
+
+  utter_interview_fail:
+    - text: " If your interview score is 5 or below, you will be given another chance to improve your score by retaking the interview."
+
+  utter_earn_trusted_badge:
+    - text: "To get a Trusted Badge by TutorFinder, you have to qualify the interview and get above 5 marks. "
+
+  utter_about_trusted_badge:
+    - text: "TutorFinder provides a Trusted Badge to identify each tutor who has passed the interview distinctly. This badge is a symbol of the tutor’s knowledge and expertise in their subject.\n The badge helps tutors to stand out from other tutors and increases their chances of getting selected by students."
+
+  utter_classes:
+    - text: "TutorFinder does not provide an online class facility. We help you connect with students, and you can conduct classes through other apps or in-person offline sessions as you prefer."
+
+  utter_payment_query:
+    - text: "TutorFinder does not handle payments. Once a tutor approves a student, payment can be made online or offline directly between the student and tutor."
+    
+actions:
+  - action_set_context
+  - action_reset_context

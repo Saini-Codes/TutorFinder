@@ -1,0 +1,21 @@
+{
+  "0": "about_chatbot",
+  "1": "email_update",
+  "2": "feedback_complain_report_student_teacher",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "login",
+  "6": "profile_details_update",
+  "7": "profile_picture_update",
+  "8": "rate_student",
+  "9": "rate_teacher",
+  "10": "registration",
+  "11": "search_tutor",
+  "12": "search_tutor_by_location_context",
+  "13": "search_tutor_by_name_context",
+  "14": "search_tutor_by_subject_context",
+  "15": "student_context",
+  "16": "teacher_context",
+  "17": "view_ratings_of_myself",
+  "18": "view_ratings_of_teacher"
+}

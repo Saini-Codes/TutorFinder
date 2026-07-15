@@ -1,0 +1,6 @@
+{
+  "rule_only_slots": [
+    "user_context"
+  ],
+  "rule_only_loops": []
+}

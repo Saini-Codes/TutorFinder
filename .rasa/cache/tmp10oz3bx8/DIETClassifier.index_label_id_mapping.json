@@ -1,0 +1,16 @@
+{
+  "0": "about_chatbot",
+  "1": "email_update",
+  "2": "goodbye",
+  "3": "greet",
+  "4": "login",
+  "5": "profile_details_update",
+  "6": "profile_picture_update",
+  "7": "registration",
+  "8": "search_tutor",
+  "9": "search_tutor_by_location_context",
+  "10": "search_tutor_by_name_context",
+  "11": "search_tutor_by_subject_context",
+  "12": "student_context",
+  "13": "teacher_context"
+}

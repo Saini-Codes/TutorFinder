@@ -1,0 +1,255 @@
+version: "3.1"
+
+rules:
+  - rule: Greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: About Tutor Finder
+    steps:
+      - intent: about_tutorfinder
+      - action: utter_about_tutorfinder
+      - action: action_reset_context
+
+  - rule: About Chatbot
+    steps:
+      - intent: about_chatbot
+      - action: utter_about_chatbot
+      - action: action_reset_context
+
+  - rule: About Developer
+    steps:
+      - intent: about_developer
+      - action: utter_about_developer
+      - action: action_reset_context
+
+  - rule: Set context for registration
+    steps:
+      - intent: registration
+      - action: action_set_context
+      - action: utter_ask_student_or_teacher
+
+  - rule: Set context for login
+    steps:
+      - intent: login
+      - action: action_set_context
+      - action: utter_ask_student_or_teacher
+
+  - rule: Handle student registration after context
+    condition:
+      - slot_was_set:
+          - user_context: registration
+    steps:
+      - intent: student_context
+      - action: utter_student_registration
+      - action: action_reset_context
+
+  - rule: Handle teacher registration after context
+    condition:
+      - slot_was_set:
+          - user_context: registration
+    steps:
+      - intent: teacher_context
+      - action: utter_teacher_registration
+      - action: action_reset_context
+
+  - rule: Handle student login after context
+    condition:
+      - slot_was_set:
+          - user_context: login
+    steps:
+      - intent: student_context
+      - action: utter_student_login
+      - action: action_reset_context
+
+  - rule: Handle teacher login after context
+    condition:
+      - slot_was_set:
+          - user_context: login
+    steps:
+      - intent: teacher_context
+      - action: utter_teacher_login
+      - action: action_reset_context
+
+  - rule: Handle Profile Update Query
+    steps:
+      - intent: profile_details_update
+      - action: utter_profile_details_update
+      - action: action_reset_context
+
+  - rule: Handle Profile Picture Update Query
+    steps:
+      - intent: profile_picture_update
+      - action: utter_profile_picture_update
+      - action: action_reset_context
+
+  - rule: Handle Email Update Query
+    steps:
+      - intent: email_update
+      - action: utter_email_update
+      - action: action_reset_context
+  
+  - rule: Search for Tutor
+    steps:
+      - intent: search_tutor
+      - action: action_set_context
+      - action: utter_ask_subject_or_name_or_location 
+
+  - rule: Handle Search Tutor by Subject
+    condition:
+      - slot_was_set:
+          - user_context: search_tutor
+    steps:
+      - intent: search_tutor_by_subject_context
+      - action: utter_search_tutor_by_subject_context
+      - action: action_reset_context
+
+  - rule: Handle Search Tutor by Name
+    condition:
+      - slot_was_set:
+          - user_context: search_tutor
+    steps:
+      - intent: search_tutor_by_name_context
+      - action: utter_search_tutor_by_name_context
+      - action: action_reset_context
+
+  - rule: Handle Search Tutor by Location
+    condition:
+      - slot_was_set:
+          - user_context: search_tutor
+    steps:    
+      - intent: search_tutor_by_location_context
+      - action: utter_search_tutor_by_location_context
+      - action: action_reset_context
+
+  - rule: apply for tutor
+    steps:
+      - intent: apply_for_tutor
+      - action: utter_apply_for_tutor
+      - action: action_reset_context
+
+  - rule: fees of tutor
+    steps:
+      - intent: fees_of_tutor
+      - action: utter_fees_of_tutor
+      - action: action_reset_context
+
+  - rule: Rate Student
+    steps:
+      - intent: rate_student
+      - action: utter_rate_student
+      - action: action_reset_context
+
+  - rule: Feedback or Complain about Student or Teacher
+    steps:
+      - intent: feedback_complain_report_student_teacher
+      - action: utter_feedback_complain_report_student_teacher
+      - action: action_reset_context
+
+  - rule: rate tutor
+    steps:
+      - intent: rate_teacher
+      - action: utter_rate_teacher
+      - action: action_reset_context
+
+  - rule: View ratings
+    steps:
+      - intent: view_ratings_of_teacher
+      - action: utter_view_ratings_of_teacher
+      - action: action_reset_context
+
+  - rule: View Ratings of Myself
+    steps:
+      - intent: view_ratings_of_myself
+      - action: utter_view_ratings_of_myself
+      - action: action_reset_context
+
+  - rule: view student list
+    steps:
+      - intent: view_student_list
+      - action: utter_view_student_list
+      - action: action_reset_context
+
+  - rule: genuine tutor
+    steps: 
+      - intent: genuine_tutor
+      - action: utter_genuine_tutor
+      - action: action_reset_context
+    
+  - rule: tutor approve notification
+    steps:
+      - intent: tutor_approve_notification
+      - action: utter_tutor_approve_notification
+      - action: action_reset_context
+
+  - rule: tutor reject notification
+    steps: 
+      - intent: tutor_reject_notification
+      - action: utter_tutor_reject_notification
+      - action: action_reset_context
+
+  - rule: student apply notification
+    steps: 
+      - intent: student_apply_notification
+      - action: utter_student_apply_notification
+      - action: action_reset_context
+
+  - rule: everything about interview
+    steps: 
+      - intent: interview_system
+      - action: utter_interview_system
+      - action: action_reset_context
+
+  - rule: complete interview
+    steps:
+      - intent: complete_interview
+      - action: utter_complete_interview
+      - action: action_reset_context
+
+  - rule: minimum_qualifications
+    steps: 
+      - intent: minimum_qualifications
+      - action: utter_minimum_qualifications
+      - action: action_reset_context
+
+  - rule: interview passed
+    steps: 
+      - intent: interview_pass
+      - action: utter_interview_pass
+      - action: action_reset_context
+  
+  - rule: interview failed
+    steps: 
+      - intent: interview_fail
+      - action: utter_interview_fail
+      - action: action_reset_context
+  
+  - rule: earn trusted badge
+    steps: 
+      - intent: earn_trusted_badge
+      - action: utter_earn_trusted_badge
+      - action: action_reset_context
+  
+  - rule: about trusted badge
+    steps: 
+      - intent: about_trusted_badge
+      - action: utter_about_trusted_badge
+      - action: action_reset_context
+
+  - rule: holding classes
+    steps:
+      - intent: classes
+      - action: utter_classes
+      - action: action_reset_context
+  
+  - rule: about payment
+    steps: 
+      - intent: payment_query
+      - action: utter_payment_query
+      - action: action_reset_context

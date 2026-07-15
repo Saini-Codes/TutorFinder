@@ -1,0 +1,17 @@
+{
+  "0": "affirm",
+  "1": "bot_challenge",
+  "2": "deny",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "login",
+  "6": "mood_great",
+  "7": "mood_unhappy",
+  "8": "registration",
+  "9": "student_context",
+  "10": "student_login",
+  "11": "student_registration",
+  "12": "teacher_context",
+  "13": "teacher_login",
+  "14": "teacher_registration"
+}

@@ -1,0 +1,1688 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - hey there
+    - hi there
+    - hello there
+    - hi again
+    - hello again
+    - hey again
+    - good morning again
+    - good evening again
+    - good day
+    - howdy
+    - what's up 
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - talk to you later
+    - see ya
+    - catch you later
+    - later
+    - have a nice day
+    - take care
+    - farewell
+    - see you soon
+
+- intent: about_tutorfinder
+  examples: |
+    - TutorFinder
+    - what is TutorFinder
+    - what is TutorFinder about
+    - what is TutorFinder used for
+    - Tutor Finder
+    - tutor finder
+    - tutorfinder
+    - What is this platform about?
+    - What is TutorFinder?
+    - What is TutorFinder about?
+    - What is TutorFinder used for?
+    - What is TutorFinder's purpose?
+    - What is TutorFinder's goal?
+    - What is TutorFinder's objective?
+    - What is TutorFinder's mission?
+    - What is TutorFinder's vision?
+    - What is Tutor Finder?
+    - What is Tutor Finder about?
+    - What is Tutor Finder used for?
+    - What is Tutor Finder's purpose?
+    - What is Tutor Finder's function?
+    - What is Tutor Finder's role?
+    - What is Tutor Finder's objective?
+    - What is Tutor Finder's goal?
+    - What is Tutor Finder's mission?
+    - What is Tutor Finder's vision?
+
+- intent: about_chatbot
+  examples: |
+    - what are you?
+    - who are you?
+    - what is your purpose?
+    - what can you do?
+    - what is your function?
+    - what is your role?
+    - what is your job?
+    - what is your task?
+    - what is your objective?
+    - what is your goal?
+    - what is your aim?
+    - what is your mission?
+    - what is your vision?
+    - what is your aim?
+    - what is this chatbot?
+    - what is this chatbot about?
+    - tell me about this chatbot
+    - what can this chatbot do?
+    - what is the purpose of this chatbot?
+    - what is the function of this chatbot?
+    - what is the chatbot for?
+    - what is the chatbot's purpose?
+    - what is the chatbot's function?
+    - what is the chatbot's role?
+    - what is the chatbot's job?
+    - what is the chatbot's task?
+    - what is the chatbot's objective?
+    - what is the chatbot's goal?
+    - what is the chatbot's aim?
+    - what is the chatbot's mission?
+    - what is the chatbot's vision?
+    - what is the chatbot's objective?
+    - what is the chatbot's aim?
+    - what is the chatbot's mission?
+    - what is the chatbot's vision?
+
+- intent: about_developer
+  examples: |
+    - developer
+    - maker
+    - creator
+    - programmer
+    - coder
+    - planner
+    - designer
+    - architect
+    - engineer
+    - builder
+    - constructor
+    - developers
+    - makers
+    - creators
+    - programmers
+    - coders
+    - planners
+    - designers
+    - architects
+    - engineers
+    - builders
+    - constructors
+    - Who built this website?
+    - Who created this chatbot?
+    - Who is the developer of this chatbot?
+    - Who is the creator of this chatbot?
+    - Who is the author of this chatbot?
+    - Who is the maker of this chatbot?
+    - Who is the programmer of this chatbot?
+    - Who is the coder of this chatbot?
+    - Who is the developer of this website?
+    - Who is the creator of this website?
+    - Who is the author of this website?
+    - Who is the maker of this website?
+    - Who is the programmer of this website?
+    - Who is the coder of this website?
+    - Who make this website?
+    - Who create this website?
+    - Who author this website?
+    - Who make this chatbot?
+    - Who create this chatbot?
+    - Who author this chatbot?
+    - who are the developers of this chatbot?
+    - who are the creators of this chatbot?
+    - who are the authors of this chatbot?
+    - who are the makers of this chatbot?
+    - who are the programmers of this chatbot?
+    - who are the coders of this chatbot?
+    - who are the developers of this website?
+    - who are the creators of this website?
+    - who are the authors of this website?
+    - who are the makers of this website?
+    - who are the programmers of this website?
+    - who are the coders of this website?
+
+- intent: registration
+  examples: |
+    - I want to register
+    - how can I register?
+    - register
+    - registration process
+    - I would like to sign up
+    - can I register?
+    - how do I create an account?
+    - I need to register
+    - I want to sign up
+    - let me register
+    - I want to create an account
+    - can I create an account?
+    - I would like to register
+    - how do I register?
+    - I need to create an account
+    - I want to register for
+    - can I register for
+    - I would like to sign up for
+    - how do I sign up for
+
+- intent: login
+  examples: |
+    - I want to login
+    - login
+    - how to login
+    - let me sign in
+    - I would like to login
+    - log me in
+    - how can I login?
+    - I need to login
+    - I want to sign in
+    - can I login?
+    - how do I login?
+    - I want to access my account
+    - I need to access my account
+    - I want to sign in to my account
+    - can I sign in to my account?
+    - how do I sign in to my account?
+    - I would like to access my account
+    - I want to login to
+    - I would like to sign in to
+    - how do I login to
+    - I need to login to
+    - I want to sign in to
+    - can I login to
+    - can I sign in to
+    - how do I sign in to
+    - I would like to login to my account
+    - I want to login to my account
+    - I would like to sign in to my account
+    - how do I login to my account
+
+- intent: student_context
+  examples: |
+    - student
+    - I am a student
+    - as a student
+    - for student
+    - I want to register as a student
+    - login as student
+    - I'm a student
+
+- intent: teacher_context
+  examples: |
+    - teacher
+    - tutor
+    - I am a teacher
+    - as a teacher
+    - for teacher
+    - I want to register as a teacher
+    - login as teacher
+    - I'm a teacher
+
+- intent: profile_details_update
+  examples: |
+    - update profile
+    - change profile
+    - edit profile
+    - modify profile
+    - Can I update my profile?
+    - How do I change my profile?
+    - I want to edit my profile
+    - How can I modify my profile?
+    - Can I change my profile?
+    - I need to update my profile
+    - How do I update my profile?
+    - How do I update my profile on TutorFinder?
+    - I want to update my profile on TutorFinder.
+    - Can I update my profile on TutorFinder?
+    - How can I change my profile on TutorFinder?
+    - I need to change my profile on TutorFinder.
+    - How do I edit my profile on TutorFinder?
+    - I want to edit my profile on TutorFinder.
+    - Can I edit my profile on TutorFinder?
+    - Can I update my details on TutorFinder?
+    - How do I change my profile information?
+    - I want to edit my profile on TutorFinder.
+    - How can I modify my profile details?
+    - Can I change my profile information?
+    - I need to update my profile on TutorFinder.
+    - How do I update my profile information?
+    - I want to change my profile on TutorFinder.
+    - Can I edit my profile on TutorFinder?
+    - update name
+    - change name
+    - edit name
+    - modify name
+    - Can I update my name?
+    - How do I change my name?
+    - I want to edit my name
+    - How can I modify my name?
+    - Can I change my name?
+    - I need to update my name
+    - How do I update my name?
+    - How do I update my name on TutorFinder?
+    - I want to update my name on TutorFinder.
+    - Can I update my name on TutorFinder?
+    - How can I change my name on TutorFinder?
+    - I need to change my name on TutorFinder.
+    - How do I edit my name on TutorFinder?
+    - I want to edit my name on TutorFinder.
+    - Can I edit my name on TutorFinder?
+    - Can I update my name on TutorFinder?
+    - How do I change my name on TutorFinder?
+    - I want to edit my name on TutorFinder.
+    - How can I modify my name on TutorFinder?
+    - Can I change my name on TutorFinder?
+    - I need to update my name on TutorFinder.
+    - How do I update my name on TutorFinder?
+    - I want to change my name on TutorFinder.
+    - Can I edit my name on TutorFinder?
+    - update address
+    - change address
+    - edit address
+    - modify address
+    - Can I update my address?    
+    - How do I change my address?
+    - I want to edit my address
+    - How can I modify my address?
+    - Can I change my address?
+    - I need to update my address
+    - How do I update my address?
+    - How do I update my address on TutorFinder?
+    - I want to update my address on TutorFinder.
+    - Can I update my address on TutorFinder?
+    - How can I change my address on TutorFinder?
+    - I need to change my address on TutorFinder.
+    - How do I edit my address on TutorFinder?
+    - I want to edit my address on TutorFinder.
+    - Can I edit my address on TutorFinder?
+    - Can I update my address on TutorFinder?
+    - How do I change my address on TutorFinder?
+    - I want to edit my address on TutorFinder.
+    - How can I modify my address on TutorFinder?
+    - Can I change my address on TutorFinder?
+    - I need to update my address on TutorFinder.
+    - How do I update my address on TutorFinder?
+    - I want to change my address on TutorFinder.
+    - Can I edit my address on TutorFinder?
+    - update phone number
+    - change phone number
+    - edit phone number
+    - modify phone number
+    - Can I update my phone number?
+    - How do I change my phone number?
+    - I want to edit my phone number
+    - How can I modify my phone number?
+    - Can I change my phone number?
+    - I need to update my phone number
+    - How do I update my phone number?
+    - How do I update my phone number on TutorFinder?
+    - I want to update my phone number on TutorFinder.
+    - Can I update my phone number on TutorFinder?
+    - How can I change my phone number on TutorFinder?
+    - I need to change my phone number on TutorFinder.
+    - How do I edit my phone number on TutorFinder?
+    - I want to edit my phone number on TutorFinder.
+    - Can I edit my phone number on TutorFinder?
+    - Can I update my phone number on TutorFinder?
+    - How do I change my phone number on TutorFinder?
+    - I want to edit my phone number on TutorFinder.
+    - How can I modify my phone number on TutorFinder?
+    - Can I change my phone number on TutorFinder?
+    - I need to update my phone number on TutorFinder.
+    - How do I update my phone number on TutorFinder?
+    - update semester
+    - change semester
+    - edit semester
+    - modify semester
+    - Can I update my semester?
+    - How do I change my semester?
+    - I want to edit my semester
+    - How can I modify my semester?
+    - Can I change my semester?
+    - I need to update my semester
+    - How do I update my semester?
+    - How do I update my semester on TutorFinder?
+    - I want to update my semester on TutorFinder.
+    - Can I update my semester on TutorFinder?
+    - How can I change my semester on TutorFinder?
+    - I need to change my semester on TutorFinder.
+    - How do I edit my semester on TutorFinder?
+    - I want to edit my semester on TutorFinder.
+    - Can I edit my semester on TutorFinder?
+    - Can I update my semester on TutorFinder?
+    - How do I change my semester on TutorFinder?
+    - I want to edit my semester on TutorFinder.
+    - How can I modify my semester on TutorFinder?
+    - Can I change my semester on TutorFinder?
+    - I need to update my semester on TutorFinder.
+    - How do I update my semester on TutorFinder?
+    - I want to change my semester on TutorFinder.
+    - Can I edit my semester on TutorFinder?
+    - change subject
+    - update subject
+    - edit subject
+    - modify subject
+    - Can I change my subject?
+    - How do I update my subject?
+    - I want to edit my subject
+    - How can I modify my subject?
+    - Can I update my subject?
+    - I need to change my subject
+    - How do I update my subject?
+    - How do I update my subject on TutorFinder?
+    - I want to update my subject on TutorFinder.
+    - Can I update my subject on TutorFinder?
+    - How can I change my subject on TutorFinder?
+    - I need to change my subject on TutorFinder.
+    - How do I edit my subject on TutorFinder?
+    - I want to edit my subject on TutorFinder.
+    - Can I edit my subject on TutorFinder?
+    - Can I update my subject on TutorFinder?
+    - How do I change my subject on TutorFinder?
+    - I want to edit my subject on TutorFinder.
+    - How can I modify my subject on TutorFinder?
+    - Can I change my subject on TutorFinder?
+    - I need to update my subject on TutorFinder.
+    - How do I update my subject on TutorFinder?
+    - I want to change my subject on TutorFinder.
+    - Can I edit my subject on TutorFinder?
+    - change teaching subject
+    - update teaching subject
+    - edit teaching subject
+    - modify teaching subject
+    - Can I change my teaching subject?
+    - How do I update my teaching subject?
+    - I want to edit my teaching subject
+    - How can I modify my teaching subject?
+    - Can I update my teaching subject?
+    - I need to change my teaching subject
+    - How do I update my teaching subject?
+    - How do I update my teaching subject on TutorFinder?
+    - I want to update my teaching subject on TutorFinder.
+    - Can I update my teaching subject on TutorFinder?
+    - How can I change my teaching subject on TutorFinder?
+    - I need to change my teaching subject on TutorFinder.
+    - How do I edit my teaching subject on TutorFinder?
+    - I want to edit my teaching subject on TutorFinder.
+    - Can I edit my teaching subject on TutorFinder?
+    - Can I update my teaching subject on TutorFinder?
+    - How do I change my teaching subject on TutorFinder?
+    - I want to edit my teaching subject on TutorFinder.
+    - How can I modify my teaching subject on TutorFinder?
+    - Can I change my teaching subject on TutorFinder?
+    - I need to update my teaching subject on TutorFinder.
+    - How do I update my teaching subject on TutorFinder?
+    - I want to change my teaching subject on TutorFinder.
+    - Can I edit my teaching subject on TutorFinder?
+    - update fees
+    - change fees
+    - edit fees
+    - modify fees
+    - Can I update my fees?
+    - How do I change my fees?
+    - I want to edit my fees
+    - How can I modify my fees?
+    - Can I change my fees?
+    - I need to update my fees
+    - How do I update my fees?
+    - How do I update my fees on TutorFinder?
+    - I want to update my fees on TutorFinder.
+    - Can I update my fees on TutorFinder?
+    - How can I change my fees on TutorFinder?  
+    - I need to change my fees on TutorFinder.
+    - How do I edit my fees on TutorFinder?
+    - I want to edit my fees on TutorFinder.
+    - Can I edit my fees on TutorFinder?
+    - Can I update my fees on TutorFinder?
+    - How do I change my fees on TutorFinder?
+    - I want to edit my fees on TutorFinder.
+    - How can I modify my fees on TutorFinder?
+    - Can I change my fees on TutorFinder?
+    - I need to update my fees on TutorFinder.
+    - How do I update my fees on TutorFinder?
+    - I want to change my fees on TutorFinder.
+    - Can I edit my fees on TutorFinder?
+    - update qualification
+    - change qualification
+    - edit qualification
+    - modify qualification
+    - Can I update my qualification?
+    - How do I change my qualification?
+    - I want to edit my qualification
+    - How can I modify my qualification?
+    - Can I change my qualification?
+    - I need to update my qualification
+    - How do I update my qualification?
+    - How do I update my qualification on TutorFinder?
+    - I want to update my qualification on TutorFinder.
+    - Can I update my qualification on TutorFinder?
+    - How can I change my qualification on TutorFinder?
+    - I need to change my qualification on TutorFinder.
+    - How do I edit my qualification on TutorFinder?
+    - I want to edit my qualification on TutorFinder.
+    - Can I edit my qualification on TutorFinder?
+    - Can I update my qualification on TutorFinder?
+    - How do I change my qualification on TutorFinder?
+    - I want to edit my qualification on TutorFinder.
+    - How can I modify my qualification on TutorFinder?
+    - Can I change my qualification on TutorFinder?
+    - I need to update my qualification on TutorFinder.
+    - How do I update my qualification on TutorFinder?
+    - I want to change my qualification on TutorFinder.
+    - Can I edit my qualification on TutorFinder?
+    - update preofessional experience
+    - change professional experience
+    - edit professional experience
+    - modify professional experience
+    - Can I update my professional experience?
+    - How do I change my professional experience?
+    - I want to edit my professional experience
+    - How can I modify my professional experience?
+    - Can I change my professional experience?
+    - I need to update my professional experience
+    - How do I update my professional experience?
+    - How do I update my professional experience on TutorFinder?
+    - I want to update my professional experience on TutorFinder.
+    - Can I update my professional experience on TutorFinder?
+    - How can I change my professional experience on TutorFinder?
+    - I need to change my professional experience on TutorFinder.
+    - How do I edit my professional experience on TutorFinder?
+    - I want to edit my professional experience on TutorFinder.
+    - Can I edit my professional experience on TutorFinder?
+    - Can I update my professional experience on TutorFinder?
+    - How do I change my professional experience on TutorFinder?
+    - I want to edit my professional experience on TutorFinder.
+    - How can I modify my professional experience on TutorFinder?
+    - Can I change my professional experience on TutorFinder?
+    - I need to update my professional experience on TutorFinder.
+    - How do I update my professional experience on TutorFinder?
+    - I want to change my professional experience on TutorFinder.
+    - Can I edit my professional experience on TutorFinder?
+
+- intent: profile_picture_update
+  examples: |
+    - update profile picture
+    - change profile picture
+    - edit profile picture
+    - modify profile picture
+    - Can I update my profile picture?
+    - How do I change my profile picture?
+    - I want to edit my profile picture
+    - How can I modify my profile picture?
+    - Can I change my profile picture?
+    - I need to update my profile picture
+    - How do I update my profile picture?
+    - How do I update my profile picture on TutorFinder?
+    - I want to update my profile picture on TutorFinder.
+    - Can I update my profile picture on TutorFinder?
+    - How can I change my profile picture on TutorFinder?
+    - I need to change my profile picture on TutorFinder.
+    - How do I edit my profile picture on TutorFinder?
+    - I want to edit my profile picture on TutorFinder.
+    - Can I edit my profile picture on TutorFinder?
+    - Can I update my profile picture on TutorFinder?
+    - How do I change my profile picture on TutorFinder?
+    - I want to edit my profile picture on TutorFinder.
+    - How can I modify my profile picture on TutorFinder?
+    - Can I change my profile picture on TutorFinder?
+    - I need to update my profile picture on TutorFinder.
+    - How do I update my profile picture on TutorFinder?
+    - I want to change my profile picture on TutorFinder.
+    - Can I edit my profile picture on TutorFinder?
+
+- intent: email_update
+  examples: |
+    - update email
+    - change email
+    - edit email
+    - modify email
+    - Can I update my email?
+    - How do I change my email?
+    - I want to edit my email
+    - How can I modify my email?
+    - Can I change my email?
+    - I need to update my email
+    - How do I update my email?
+    - How do I update my email on TutorFinder?
+    - I want to update my email on TutorFinder.
+    - Can I update my email on TutorFinder?
+    - How can I change my email on TutorFinder?
+    - I need to change my email on TutorFinder.
+    - How do I edit my email on TutorFinder?
+    - I want to edit my email on TutorFinder.
+    - Can I edit my email on TutorFinder?
+    - Can I update my email on TutorFinder?
+    - How do I change my email on TutorFinder?
+    - I want to edit my email on TutorFinder.
+    - How can I modify my email on TutorFinder?
+    - Can I change my email on TutorFinder?
+    - I need to update my email on TutorFinder.
+    - How do I update my email on TutorFinder?
+    - I want to change my email on TutorFinder.
+    - Can I edit my email on TutorFinder?
+    
+- intent: search_tutor
+  examples: |
+    - find a tutor
+    - search for a tutor
+    - I need a tutor
+    - looking for a tutor
+    - can you help me find a tutor?
+    - I want to find a tutor
+    - help me search for a tutor
+    - I need help finding a tutor
+    - can you find me a tutor?
+    - I want to search for a tutor
+    - I am looking for a tutor
+    - I want to find a tutor 
+    - I am searching for a tutor 
+    - find a teacher
+    - I want to find a teacher
+    - I want a teacher
+    - search for a teacher
+    - I need a teacher
+    - looking for a teacher
+    - can you help me find a teacher?
+    - help me search for a teacher
+    - I need help finding a teacher
+    - can you find me a teacher?
+    - I want to search for a teacher
+    - I am looking for a teacher
+    - I need a teacher for
+    - I want to find a teacher for  
+    - I am searching for a teacher
+    
+
+- intent: search_tutor_by_location_context
+  examples: |
+    - location
+    - by location
+    - find a tutor in 
+    - search for a tutor in 
+    - I need a tutor in 
+    - looking for a tutor in 
+    - can you help me find a tutor in ?
+    - I want to find a tutor in
+    - help me search for a tutor in 
+    - I need help finding a tutor in
+    - can you find me a tutor in ?
+    - I want to search for a tutor in 
+    - I am looking for a tutor in 
+    - I need a tutor for in
+    - I want to find a tutor for in
+    - I am searching for a tutor for in
+    - I need a tutor for my studies in
+    - I want to find a tutor for my studies in
+    - I am looking for a tutor for my studies in
+    - I need a tutor for my subject in
+    - I want to find a tutor for my subject in
+    - I am searching for a tutor for my subject in
+    - I need a tutor for my course in
+    - I want to find a tutor for my course in
+    - I am looking for a tutor for my course in
+    - I need a tutor for my exam preparation in
+    - I want to find a tutor for my exam preparation in
+    - I am searching for a tutor for my exam preparation in
+    - I need a tutor for my homework help in
+    - I want to find a tutor for my homework help in
+    - find a teacher in
+    - search for a teacher in
+    - I need a teacher in
+    - looking for a teacher in
+    - can you help me find a teacher in ?
+    - I want to find a teacher in
+    - help me search for a teacher in
+    - I need help finding a teacher in
+    - can you find me a teacher in ?
+    - I want to search for a teacher in
+    - I am looking for a teacher in
+    - I need a teacher for in
+    - I want to find a teacher for in
+    - I am searching for a teacher for in     
+    - I need a teacher for my studies in
+    - I want to find a teacher for my studies in
+    - I am looking for a teacher for my studies in
+    - I need a teacher for my subject in
+    - I want to find a teacher for my subject in
+    - I am searching for a teacher for my subject in
+    - I need a teacher for my course in
+    - I want to find a teacher for my course in
+    - I am looking for a teacher for my course in
+    - I need a teacher for my exam preparation in
+    - I want to find a teacher for my exam preparation in
+    - I am searching for a teacher for my exam preparation in
+    - I need a teacher for my homework help in
+    - I want to find a teacher for my homework help in
+    - I am looking for a teacher for my homework help in
+    - I need a teacher for my project guidance in
+    - I want to find a teacher for my project guidance in
+    - I am searching for a teacher for my project guidance in
+    - I need a teacher for my thesis assistance in
+    - I want to find a teacher for my thesis assistance in
+    - I am looking for a teacher for my thesis assistance in
+    - I need a teacher for my academic support in
+    - I want to find a teacher for my academic support in
+    - I am searching for a teacher for my academic support in
+    - I need a teacher for my online classes in
+
+- intent: search_tutor_by_subject_context
+  examples: |
+    - subject
+    - by subject
+    - by subject name
+    - find a tutor for 
+    - i need a tutor for
+    - search for a tutor for  
+    - I want a tutor for
+    - I am looking for a tutor for
+    - I need help finding a tutor for
+    - I want to find a tutor for
+    - help me search for a tutor for
+    - can you find me a tutor for ?
+    - I want to search for a tutor for
+    - I am searching for a tutor for
+    - I need a tutor for my studies
+    - I want to find a tutor for my studies
+    - I am looking for a tutor for my studies
+    - I need a tutor for my subject 
+    - I want to find a tutor for my subject 
+    - I am searching for a tutor for my subject 
+    - I want to find a tutor for my course 
+    - I am looking for a tutor for my course
+    - I need a tutor for my exam preparation
+    - looking for a tutor for 
+    - can you help me find a tutor for ?
+    - I want to find a tutor for
+    - help me search for a tutor for 
+    - I need help finding a tutor for
+    - can you find me a tutor for ?
+    - I want to search for a tutor for 
+    - I am looking for a tutor for
+    - I want teacher for Bengali
+    - I want teacher for English
+    - I want teacher for Mathematics
+    - I want teacher for Science
+    - I want teacher for History
+    - I want teacher for Geography
+    - I want teacher for Computer Science
+    - I want teacher for Physics
+    - I want teacher for Chemistry
+    - I want teacher for Biology
+    - I want teacher for Economics
+    - I want teacher for Business Studies
+    - I want teacher for Accountancy
+    - I want teacher for Arts
+    - I want teacher for Music
+    - I want teacher for Physical Education
+    - I want teacher for Psychology
+    - I want teacher for Sociology
+    - I want teacher for Political Science
+    - I want teacher for Philosophy
+    - I want teacher for Environmental Science
+    - I want teacher for Statistics
+    - I want teacher for Mathematics Olympiad
+    - I want teacher for Science Olympiad
+    - I want teacher for English Olympiad
+    - I want teacher for Computer Science Olympiad
+    - I want teacher for Coding
+    - I want teacher for Robotics
+    - I want teacher for Artificial Intelligence
+    - I want teacher for Data Science
+    - I want teacher for Machine Learning
+    - I want teacher for Web Development
+    - I want teacher for App Development
+    - I want teacher for Graphic Design
+    - I want teacher for Animation
+    - I want teacher for Video Editing
+    - I want teacher for Photography
+    - I want teacher for Digital Marketing
+    - I want teacher for Content Writing
+    - I want teacher for Creative Writing
+    - I want teacher for Public Speaking
+    - I want teacher for Communication Skills
+    - I want teacher for Leadership Skills
+    - I want teacher for Time Management
+    - I want teacher for Study Skills
+    - I want teacher for Exam Preparation
+    - I want teacher for Interview Preparation
+
+- intent: search_tutor_by_name_context
+  examples: |
+    - tutor name
+    - teacher name
+    - name
+    - by name
+    - by tutor name
+    - find a tutor named 
+    - search for a tutor named 
+    - I need a tutor named 
+    - looking for a tutor named 
+    - can you help me find a tutor named ?
+    - I want to find a tutor named
+    - help me search for a tutor named 
+    - I need help finding a tutor named
+    - can you find me a tutor named ?
+    - I want to search for a tutor named 
+    - I am looking for a tutor named
+    - I am searching for a tutor named
+    - I need a tutor named
+    - by teacher name
+    - find a teacher named
+    - search for a teacher named
+    - I need a teacher named
+    - looking for a teacher named   
+    - can you help me find a teacher named ?
+    - I want to find a teacher named
+    - help me search for a teacher named
+    - I need help finding a teacher named
+    - can you find me a teacher named ?
+    - I want to search for a teacher named
+    - I am looking for a teacher named
+    - I need a teacher named for 
+    - I am looking for a teacher named 
+    - I need a teacher named 
+    - I want to find a teacher named 
+    - I am searching for a teacher named 
+    - I need a teacher named 
+
+- intent: apply_for_tutor
+  examples: |
+    - apply
+    - apply for tutor
+    - apply for teacher
+    - apply for
+    - apply to
+    - apply for a tutor
+    - apply for a teacher
+    - apply for a
+    - how can I apply for a tutor
+    - how can I apply for a teacher
+    - how can I apply for
+    - how do I apply for a tutor
+    - how do I apply for a teacher
+    - how do I apply for
+    - I want to apply for a tutor
+    - I want to apply for a teacher
+    - I want to apply for
+    - I am applying for a tutor
+    - I am applying for a teacher
+    - I am applying for
+    - I need to apply for a tutor
+    - I need to apply for a teacher
+    - I need to apply for
+    - can you help me apply for a tutor
+    - can you help me apply for a teacher
+    - can you help me apply for
+    - contact a tutor
+    - contact a teacher
+    - how can I contact a tutor?
+    - how can I contact a teacher?
+
+- intent: fees_of_tutor
+  examples: |
+    - fees 
+    - fees structure
+    - fees of tutor
+    - fees of teacher
+    - fees of
+    - how much does a tutor cost
+    - how much does a teacher cost
+    - how much does a tutor cost per hour
+    - how much does a teacher cost per hour
+    - how much does a tutor cost per session
+    - how much does a teacher cost per session
+    - how much does a tutor cost in total
+    - how much does a teacher cost in total 
+    - fees per month
+    - fees per week
+    - fees per day
+    - fees per hour
+    - fees per session
+    - fees in total
+    - how much is a tutor
+    - how much is a teacher
+    - how much is a tutor per hour
+    - how much is a teacher per hour
+    - how much is a tutor per session
+    - how much is a teacher per session
+    - how much is a tutor in total
+    - how much is a teacher in total
+    - how much does a tutor cost
+    - how much does a teacher cost
+    - how much does a tutor cost per hour
+    - how much does a teacher cost per hour
+    - how much does a tutor cost per session
+    - how much does a teacher cost per session
+    - how much does a tutor cost in total
+    - how much does a teacher cost in total
+    - how much is a tutor
+    - how much is a teacher
+    - how much money does a tutor take
+    - how much money does a teacher take
+    - fees per subject
+    - fees per class
+    - fees per course
+    - fees per lesson
+    - fees per session
+    - fees for subject
+    - fees for class
+    - fees for course
+    - fees for lesson
+    - fees for session
+    - how much does a tutor cost for a subject
+    - how much does a teacher cost for a subject
+    - how much does a tutor cost for a class
+    - how much does a teacher cost for a class
+    - how much does a tutor cost for a course
+    - how much does a teacher cost for a course
+    - how much does a tutor cost for a lesson
+    - how much does a teacher cost for a lesson
+    - how much does a tutor cost for a session
+    - how much does a teacher cost for a session
+    - how much does a tutor cost for a subject
+    - how much money for
+
+- intent: rate_student
+  examples: |
+    - rate student
+    - give rating to student
+    - I want to rate a student
+    - how to rate a student?
+    - can I rate a student?
+    - I need to rate a student
+    - I want to give rating to a student
+    - how do I rate a student?
+    - can you help me rate a student?
+    - I want to rate a student
+    - how do I rate a student?
+    - can I rate a student?
+    - How can I rate a student?
+
+- intent: feedback_complain_report_student_teacher
+  examples: |
+    - I want to give feedback about a student
+    - how to give feedback about a student?
+    - can I give feedback about a student?
+    - I need to give feedback about a student
+    - I want to provide feedback about a student
+    - how do I give feedback about a student?
+    - can you help me give feedback about a student?
+    - I want to provide feedback about a student
+    - how do I provide feedback about a student?
+    - can I provide feedback about a student?
+    - How can I provide feedback about a student?
+    - i want to complain about a student
+    - how to complain about a student?
+    - can I complain about a student?
+    - I need to complain about a student
+    - I want to give a complaint about a student
+    - how do I complain about a student?
+    - can you help me complain about a student?
+    - I want to give a complaint about a student
+    - how do I give a complaint about a student?
+    - can I give a complaint about a student?
+    - How can I give a complaint about a student?
+    - I want to report a student
+    - how to report a student?
+    - can I report a student?
+    - I need to report a student
+    - I want to give a report about a student
+    - how do I report a student?
+    - can you help me report a student?
+    - I want to give a report about a student
+    - how do I give a report about a student?
+    - can I give a report about a student?
+    - How can I give a report about a student?
+    - I want to give feedback about a teacher
+    - how to give feedback about a teacher?
+    - can I give feedback about a teacher?
+    - I need to give feedback about a teacher
+    - I want to provide feedback about a teacher
+    - how do I give feedback about a teacher?
+    - can you help me give feedback about a teacher?  
+    - I want to provide feedback about a teacher
+    - how do I provide feedback about a teacher?
+    - can I provide feedback about a teacher?
+    - How can I provide feedback about a teacher?
+    - i want to complain about a teacher
+    - how to complain about a teacher?
+    - can I complain about a teacher?
+    - I need to complain about a teacher
+    - I want to give a complaint about a teacher
+    - how do I complain about a teacher?
+    - can you help me complain about a teacher?
+    - I want to give a complaint about a teacher
+    - how do I give a complaint about a teacher?
+    - can I give a complaint about a teacher?
+    - How can I give a complaint about a teacher?
+    - I want to report a teacher
+    - how to report a teacher?
+    - can I report a teacher?
+    - I need to report a teacher
+    - I want to give a report about a teacher
+    - how do I report a teacher?
+    - can you help me report a teacher?
+    - I want to give a report about a teacher
+    - how do I give a report about a teacher?
+    - can I give a report about a teacher?
+    - How can I give a report about a teacher?
+    - I want to give feedback about a tutor
+    - how to give feedback about a tutor?
+    - can I give feedback about a tutor?
+    - I need to give feedback about a tutor
+    - I want to provide feedback about a tutor
+    - how do I give feedback about a tutor?
+    - can you help me give feedback about a tutor?
+    - I want to provide feedback about a tutor
+    - how do I provide feedback about a tutor?
+    - can I provide feedback about a tutor?
+    - How can I provide feedback about a tutor?
+    - i want to complain about a tutor
+    - how to complain about a tutor?
+    - can I complain about a tutor?
+    - I need to complain about a tutor
+    - I want to give a complaint about a tutor
+    - how do I complain about a tutor?
+    - can you help me complain about a tutor?
+    - I want to give a complaint about a tutor
+    - how do I give a complaint about a tutor?
+    - can I give a complaint about a tutor?
+    - How can I give a complaint about a tutor?
+    - I want to report a tutor
+    - how to report a tutor?
+    - can I report a tutor?
+    - I need to report a tutor
+    - I want to give a report about a tutor
+    - how do I report a tutor?
+    - can you help me report a tutor?
+    - I want to give a report about a tutor
+    - how do I give a report about a tutor?
+    - can I give a report about a tutor?
+    - How can I give a report about a tutor?
+    - What if a student disturb me?
+    - How to handle a student who disturb me?
+    - disturbing student
+    - student disturbing
+    - disturbing teacher
+    - teacher disturbing
+    - disturbing tutor
+    - tutor disturbing
+
+
+- intent: rate_teacher
+  examples: |
+    - rate teacher
+    - give rating to teacher
+    - I want to rate a teacher
+    - how to rate a teacher?
+    - can I rate a teacher?
+    - I need to rate a teacher
+    - I want to give rating to a teacher
+    - how do I rate a teacher?
+    - can you help me rate a teacher?
+    - I want to rate a teacher
+    - how do I rate a teacher?
+    - can I rate a teacher?
+    - How can I rate a teacher?
+    - rate tutor
+    - give rating to tutor
+    - I want to rate a tutor
+    - how to rate a tutor?
+    - can I rate a tutor?
+    - I need to rate a tutor
+    - I want to give rating to a tutor
+    - how do I rate a tutor?  
+    - can you help me rate a tutor?
+    - I want to rate a tutor
+    - how do I rate a tutor?
+    - can I rate a tutor?
+    - How can I rate a tutor?
+
+- intent: view_ratings_of_teacher
+  examples: |
+    - view ratings
+    - see ratings
+    - check ratings
+    - I want to view ratings
+    - how to view ratings?
+    - can I see ratings?
+    - I need to check ratings
+    - I want to check ratings   
+    - how do I view ratings?
+    - can you help me view ratings?
+    - I want to see ratings
+    - how do I see ratings?
+    - can I check ratings?
+    - How can I check ratings?
+    - view tutor ratings
+    - see tutor ratings
+    - check tutor ratings
+    - I want to view tutor ratings
+    - how to view tutor ratings?
+    - can I see tutor ratings?
+    - I need to check tutor ratings
+    - I want to check tutor ratings
+    - how do I view tutor ratings?
+    - can you help me view tutor ratings?
+    - I want to see tutor ratings
+    - how do I see tutor ratings?
+    - can I check tutor ratings?
+    - How can I check tutor ratings?
+    - view teacher ratings
+    - see teacher ratings
+    - check teacher ratings
+    - I want to view teacher ratings
+    - how to view teacher ratings?
+    - can I see teacher ratings?
+    - I need to check teacher ratings
+    - I want to check teacher ratings
+    - how do I view teacher ratings?
+    - can you help me view teacher ratings?
+    - I want to see teacher ratings
+    - how do I see teacher ratings?
+    - can I check teacher ratings?
+    - How can I check teacher ratings?
+    - view reviews
+    - see reviews
+    - check reviews
+    - I want to view reviews
+    - how to view reviews?
+    - can I see reviews?
+    - I need to check reviews
+    - I want to check reviews
+    - how do I view reviews?
+    - can you help me view reviews?
+    - I want to see reviews
+    - how do I see reviews?
+    - can I check reviews?
+    - How can I check reviews?
+
+- intent: view_ratings_of_myself
+  examples: |
+    - I want to see my ratings
+    - how do I see my ratings?
+    - can I check my ratings?
+    - How can I check my ratings?
+    - view my ratings
+    - see my ratings
+    - check my ratings
+    - I want to view my ratings
+    - how to view my ratings?
+    - check my ratings
+    - can I see my ratings?
+    - I need to check my ratings
+    - I want to check my ratings
+    - how do I view my ratings?
+    - can you help me view my ratings?
+    - I want to see my ratings
+    - how do I see my ratings?
+    - can I check my ratings?
+    - How can I check my ratings?
+    - view my reviews
+    - see my reviews
+    - check my reviews
+    - I want to view my reviews
+    - how to view my reviews?
+    - can I see my reviews?
+    - I need to check my reviews
+    - I want to check my reviews
+    - how do I view my reviews?
+    - can you help me view my reviews?
+    - I want to see my reviews
+    - how do I see my reviews?
+    - can I check my reviews?
+    - How can I check my reviews?
+    - view my ratings and reviews
+    - see my ratings and reviews
+    - check my ratings and reviews
+    - I want to view my ratings and reviews
+    - how to view my ratings and reviews?
+    - can I see my ratings and reviews?
+    - I need to check my ratings and reviews
+    - I want to check my ratings and reviews
+    - how do I view my ratings and reviews?
+    - can you help me view my ratings and reviews?
+    - I want to see my ratings and reviews
+    - how do I see my ratings and reviews?
+    - can I check my ratings and reviews?
+    - How can I check my ratings and reviews?
+    - view my profile ratings
+    - see my profile ratings
+    - check my profile ratings
+    - I want to view my profile ratings
+    - how to view my profile ratings?
+    - can I see my profile ratings?
+    - I need to check my profile ratings
+    - I want to check my profile ratings
+    - how do I view my profile ratings?
+    - can you help me view my profile ratings?
+    - I want to see my profile ratings
+    
+- intent: view_student_list
+  examples: |
+    - I want to see the list of students
+    - can I see the list of students?
+    - how do I view the list of students?
+    - I need to see the list of students
+    - I want to view the list of students
+    - how to view the list of students?
+    - can you help me view the list of students?
+    - I want to see the list of students
+    - how do I see the list of students?
+    - can I check the list of students?
+    - How can I check the list of students?
+    - view the list of students
+    - see the list of students
+    - check the list of students
+    - I want to view the list of students
+    - how to view the list of students?
+    - can I see the list of students?
+    - I need to check the list of students
+    - I want to check the list of students
+    - how do I view the list of students?
+    - can you help me view the list of students?
+    - I want to see the list of students
+    - how do I see the list of students?
+    - can I check the list of students?
+    - How can I check the list of students?
+    - view student list
+    - see student list
+    - check student list
+    - I want to view student list
+    - how to view student list?
+    - can I see student list?
+    - I need to check student list
+    - I want to check student list
+    - how do I view student list?
+    - can you help me view student list?
+    - I want to see student list
+    - how do I see student list?
+    - can I check student list?
+    - How can I check student list?
+    - view students
+    - see students
+    - check students
+    - I want to view students
+    - how to view students?
+    - can I see students?
+    - How can i see student who are applied for me?
+    - how to view student who are applied for me?
+    - can i view student who are applied for me?
+    - I want to view student who are applied for me
+    - how do I view student who are applied for me?
+    - can you help me view student who are applied for me?
+    - I want to see student who are applied for me
+    - how do I see student who are applied for me?
+    - can I check student who are applied for me?
+    - How can I check student who are applied for me?
+    - view student who are applied for me
+    - see student who are applied for me
+    - check student who are applied for me
+    - I want to view student who are applied for me
+    - how to view student who are applied for me?
+    - can I see student who are applied for me?
+    - I need to check student who are applied for me
+    - I want to check student who are applied for me
+    - how do I view student who are applied for me?
+    - can you help me view student who are applied for me?
+    - I want to see student who are applied for me
+    - how do I see student who are applied for me?
+    - can I check student who are applied for me?
+    - How can I check student who are applied for me?
+    - view students who are applied for me
+    - see students who are applied for me
+    - check students who are applied for me
+    - I want to view students who are applied for me
+    - how to view students who are applied for me?
+    - can I see students who are applied for me?
+    - I need to check students who are applied for me
+    - I want to check students who are applied for me
+    - how do I view students who are applied for me?
+    - can you help me view students who are applied for me?
+    - I want to see students who are applied for me
+    - how do I see students who are applied for me?
+    - can I check students who are applied for me?
+    - How can I check students who are applied for me?
+    - accept student
+    - accept students
+    - accept student who are applied for me
+    - accept students who are applied for me
+    - How can I accept student?
+    - how to accept student?
+    - can I accept student?
+    - I want to accept student
+    - how do I accept student?
+    - can you help me accept student?
+    - I want to accept students
+    - how do I accept students?
+    - can you help me accept students?
+    - I want to accept student who are applied for me
+    - how do I accept student who are applied for me?
+    - can you help me accept student who are applied for me?
+    - I want to accept students who are applied for me
+    - how do I accept students who are applied for me?
+    - can you help me accept students who are applied for me?
+    - reject student
+    - reject students
+    - reject student who are applied for me
+    - reject students who are applied for me
+    - How can I reject student?
+    - how to reject student?
+    - can I reject student?
+    - I want to reject student
+    - how do I reject student?
+    - can you help me reject student?
+    - I want to reject students
+    - how do I reject students?
+    - can you help me reject students?
+    - I want to reject student who are applied for me
+    - how do I reject student who are applied for me?
+    - can you help me reject student who are applied for me?
+
+- intent: genuine_tutor
+  examples: |
+     - genuine Tutor
+     - genuine tutor
+     - genuine teacher
+     - reliable teacher
+     - trustworthy teacher
+     - reliable tutor
+     - trustworthy tutor
+     - Are all tutors on TutorFinder genuine?
+     - Are all teachers on TutorFinder genuine?
+     - Are all tutors on TutorFinder real?
+     - Are all teachers on TutorFinder real?
+     - Are all tutors on TutorFinder authentic?
+     - Are all teachers on TutorFinder authentic?
+     - Are all tutors on TutorFinder verified?
+     - Are all teachers on TutorFinder verified?
+     - Are all tutors on TutorFinder trustworthy?
+     - Are all teachers on TutorFinder trustworthy?
+     - Are all tutors on TutorFinder reliable?
+     - Are all teachers on TutorFinder reliable?
+     - Are all tutors on TutorFinder honest?
+     - Are all teachers on TutorFinder honest?
+     - Are all tutors on TutorFinder truthful?
+     - Are all teachers on TutorFinder truthful?
+     - Are all tutors on TutorFinder sincere?
+     - Are all teachers on TutorFinder sincere?
+     - How the teachers are verified on TutorFinder?
+     - How the tutors are verified on TutorFinder?
+     - How the teachers are verified?
+     - How the tutors are verified?
+     - How do you verify teachers on TutorFinder?
+     - How do you verify tutors on TutorFinder?
+     - How do you verify teachers?
+     - How do you verify tutors?
+     - What is the process of verifying teachers on TutorFinder?
+     - What is the process of verifying tutors on TutorFinder?
+     - What is the process of verifying teachers?
+     - What is the process of verifying tutors?
+     - How do you ensure teachers are genuine on TutorFinder?
+     - How do you ensure tutors are genuine on TutorFinder?
+     - How do you ensure teachers are real on TutorFinder?
+     - How do you ensure tutors are real on TutorFinder?
+     - How do you ensure teachers are authentic on TutorFinder?
+     - How do you ensure tutors are authentic on TutorFinder?
+     - How do you ensure teachers are verified on TutorFinder?
+     - How do you ensure tutors are verified on TutorFinder?
+     - How do you ensure teachers are trustworthy on TutorFinder?
+     - How do you ensure tutors are trustworthy on TutorFinder?
+     - How do you ensure teachers are reliable on TutorFinder?
+     - How do you ensure tutors are reliable on TutorFinder?
+     - How do you ensure teachers are honest on TutorFinder?
+     - How do you ensure tutors are honest on TutorFinder?
+     - How do you ensure teachers are truthful on TutorFinder?
+     - How do you ensure tutors are truthful on TutorFinder?
+     - How do you ensure teachers are sincere on TutorFinder?
+     - How do you ensure tutors are sincere on TutorFinder?
+     - What is the verification process for teachers on TutorFinder?
+     - What is the verification process for tutors on TutorFinder?
+     - What is the verification process for teachers?
+     - What is the verification process for tutors?
+     - How do you verify the identity of teachers on TutorFinder?
+     - How do you verify the identity of tutors on TutorFinder?
+     - How do you verify the identity of teachers?
+     - How do you verify the identity of tutors?
+     - What is the process of verifying the identity of teachers on TutorFinder?
+     - What is the process of verifying the identity of tutors on TutorFinder?
+     - What is the process of verifying the identity of teachers?
+     - What is the process of verifying the identity of tutors?
+     - How do you ensure the identity of teachers is verified on TutorFinder?
+     - How do you ensure the identity of tutors is verified on TutorFinder?
+     - How do you ensure the identity of teachers is confirmed on TutorFinder?
+     - authenticity of teachers on TutorFinder
+     - authenticity of tutors on TutorFinder
+     - authenticity of teachers
+     - authenticity of tutors
+     - verification of teachers on TutorFinder
+     - verification of tutors on TutorFinder
+     - verification of teachers
+     - verification of tutors
+     - verification process for teachers on TutorFinder
+     - verification process for tutors on TutorFinder
+     - verification process for teachers
+     - verification process for tutors
+     - how to verify teachers on TutorFinder
+     - how to verify tutors on TutorFinder
+     - how to verify teachers
+     - how to verify tutors
+
+- intent: tutor_approve_notification
+  examples: |
+     - tutor approval
+     - tutor approved
+     - tutor approved notification
+     - tutor approved email
+     - tutor approved message
+     - tutor approved notification email
+     - tutor approved notification message
+     - tutor approved notification email message
+     - tutor approved notification message email
+     - teacher approval
+     - teacher approved
+     - teacher approved notification
+     - teacher approved email
+     - teacher approved message
+     - teacher approved notification email
+     - teacher approved notification message
+     - teacher approved notification email message
+     - teacher approved notification message email
+     - How do I know if a tutor approves me?
+     - How do I know if a teacher approves me?
+     - What if tutor approves me?
+     - What if teacher approves me?
+     - How do I get notified if tutor approves me?
+     - How do I get notified if teacher approves me?
+     - What is the notification process for tutor approval?
+     - What is the notification process for teacher approval?
+     - How do I get notified of tutor approval?
+     - How do I get notified of teacher approval?
+     - What is the notification for tutor approval?
+     - What is the notification for teacher approval?
+     - How do I know if I'm approved by tutor?
+     - How do I know if I'm approved by teacher?
+     - What if I'm approved by tutor?
+     - What if I'm approved by teacher?
+     - How do I get notified if I'm approved by tutor?
+     - How do I get notified if I'm approved by teacher?
+     - How do I know if I am approved by tutor?
+     - How do I know if I am approved by teacher?
+     - How do I get notified if I am approved by tutor?
+     - How do I get notified if I am approved by teacher?
+
+- intent: tutor_reject_notification
+  examples: |
+     - tutor rejection
+     - tutor rejected
+     - tutor rejected notification
+     - tutor rejected email
+     - tutor rejected message
+     - tutor rejected notification email
+     - tutor rejected notification message
+     - tutor rejected notification email message
+     - tutor rejected notification message email
+     - How do I know if a tutor rejects me?
+     - How do I know if a teacher rejects me?
+     - What if tutor rejects me?
+     - What if teacher rejects me?
+     - How do I get notified if tutor rejects me?
+     - How do I get notified if teacher rejects me?
+     - What is the notification process for tutor rejection?
+     - What is the notification process for teacher rejection?
+     - How do I get notified of tutor rejection?
+     - How do I get notified of teacher rejection?
+     - What is the notification for tutor rejection?
+     - What is the notification for teacher rejection?
+     - How do I know if I'm rejected by tutor?
+     - How do I know if I'm rejected by teacher?
+     - What if I'm rejected by tutor?
+     - What if I'm rejected by teacher?
+     - How do I get notified if I'm rejected by tutor?
+     - How do I get notified if I'm rejected by teacher?
+     - How do I know if I am rejected by tutor?
+     - How do I know if I am rejected by teacher?
+     - How do I get notified if I am rejected by tutor?
+     - How do I get notified if I am rejected by teacher?
+
+- intent: student_apply_notification
+  examples: |
+     - student notification
+     - student notification email
+     - student notification message
+     - student notification email message
+     - student notification message email
+     - student apply notification
+     - student apply notification email
+     - student apply notification message
+     - student apply notification email message
+     - student apply notification message email
+     - How will I know when a student applies to me?
+     - What is the notification process for student applications?
+     - How do I get notified when a student applies?
+     - What is the notification process for student applications on TutorFinder?
+     - How do I know when a student applies to me on TutorFinder?
+     - How do I get notified when a student applies on TutorFinder?
+     - How do I know when a student applies on TutorFinder?
+
+- intent: interview_system
+  examples: |
+     - interview system
+     - interview process
+     - interview process on TutorFinder
+     - interview system on TutorFinder
+     - what is the interview process on TutorFinder?
+     - how does the interview process work on TutorFinder?
+     - what is the interview system on TutorFinder?
+     - How does the interview system work on TutorFinder?
+     - What is the interview process on TutorFinder?
+     - all about the interview system on TutorFinder
+     - all about the interview process on TutorFinder
+     - is there any interview process for tutors on TutorFinder?
+     - is there any interview system for tutors on TutorFinder?
+     - is there any interview process for teachers on TutorFinder?
+     - is there any interview system for teachers on TutorFinder?
+     - is there any interview?
+     - is there any interview system?
+     - is there any interview process?
+
+- intent: complete_interview
+  examples: |
+     - complete interview
+     - steps to compplete interview
+     - where can I find the interview opton?
+     - how to complete the interview
+     - how to complete the interview on TutorFinder
+     - how to complete the interview process on TutorFinder
+     - how to complete the interview system on TutorFinder
+     - how to complete the interview on TutorFinder?
+     - how to complete the interview process on TutorFinder?
+     - how to complete the interview system on TutorFinder?
+     - how to complete the interview on TutorFinder?
+     - How can I complete the interview?
+     - How do I complete the interview?
+     - What is the process to complete the interview?
+     - How do I finish the interview?
+     - What are the steps to complete the interview?
+     - How do I complete the interview on TutorFinder?
+     - What is the process to complete the interview on TutorFinder?
+     - How do I finish the interview on TutorFinder?
+     - What are the steps to complete the interview on TutorFinder?
+     - How do I complete the interview process?
+     - What is the process to complete the interview process?
+     - How do I finish the interview process?
+     - What are the steps to complete the interview process?
+     - How do I complete the interview on TutorFinder?
+     - What is the process to complete the interview on TutorFinder?
+     - How do I finish the interview on TutorFinder?
+     - What are the steps to complete the interview on TutorFinder?
+     - How do I complete the interview process on TutorFinder?
+     - What is the process to complete the interview process on TutorFinder?
+
+
+- intent: minimum_qualifications
+  examples: |
+     - minimum qualifications
+     - minimum requirements
+     - what are the minimum qualifications?
+     - what are the minimum requirements?
+     - what are the minimum qualifications for tutors on TutorFinder?
+     - what are the minimum requirements for tutors on TutorFinder?
+     - what are the minimum qualifications for teachers on TutorFinder?
+     - what are the minimum requirements for teachers on TutorFinder?
+     - what are the qualifications needed for tutors?
+     - what are the requirements needed for tutors?
+     - what are the qualifications needed for teachers?
+     - what are the requirements needed for teachers?
+     - what are the qualifications needed for tutors on TutorFinder?
+     - what are the requirements needed for tutors on TutorFinder?
+     - what are the qualifications needed for teachers on TutorFinder?
+     - what are the requirements needed for teachers on TutorFinder?
+     - qualifications
+     - requirements
+     - qualifications to apply for a tutor?
+     - requirements to apply for a tutor?
+     - qualifications to apply for a teacher?
+     - requirements to apply for a teacher?
+     - qualifications to apply for a tutor on TutorFinder?
+     - requirements to apply for a tutor on TutorFinder?
+     - qualifications to apply for a teacher on TutorFinder?
+     - requirements to apply for a teacher on TutorFinder?
+
+- intent: interview_pass
+  examples: |
+     - interview pass
+     - pass interview
+     - passed interview
+     - interview passed
+     - What if I pass the Interview?
+     - What happens if I pass the interview?
+     - What happens if I pass the interview on TutorFinder?
+     - What happens if I pass the interview process?
+     - What happens if I pass the interview process on TutorFinder?
+
+- intent: interview_fail
+  examples: |
+     - interview fail
+     - fail interview
+     - failed interview
+     - interview failed
+     - What if I fail the Interview?
+     - What happens if I fail the interview?
+     - What happens if I fail the interview on TutorFinder?
+     - What happens if I fail the interview process?
+     - What happens if I fail the interview process on TutorFinder?
+
+- intent: earn_trusted_badge
+  examples: |
+     - earn trusted badge
+     - earn verified badge
+     - How can i get trusted badge?
+     - How can i get verified badge?
+     - How can i earn trusted badge?
+     - How can i earn verified badge?
+     - What is the process of getting trusted batch?
+     - What is the process of getting verified badge?
+     - How can i get trusted badge on TutorFinder?
+     - How can i get verified badge on TutorFinder?
+     - How can i earn trusted badge on TutorFinder?
+     - How can i earn verified badge on TutorFinder?
+     - How to get trusted badge on TutorFinder?
+     - How to get verified badge on TutorFinder?
+     - How to earn trusted badge on TutorFinder?
+     - How to get trusted badge?
+     - How to get verified badge?
+     - How to earn trusted badge?
+     - How to earn verified badge?
+
+- intent: about_trusted_badge
+  examples: |
+     - what is trusted badge?
+     - what is verified badge?
+     - what is the trusted badge?
+     - what is the verified badge?
+     - what is the trusted badge on TutorFinder?
+     - what is the verified badge on TutorFinder?
+     - trusted badge
+     - verified badge
+     - badge
+     - is there a badge on TutorFinder?
+     - what is the badge on TutorFinder?
+     - what is the badge for?
+     - what is the badge for on TutorFinder?
+     - what is the trusted badge for?
+     - what is the verified badge for?
+     - what is the trusted badge for on TutorFinder?
+     - what is the verified badge for on TutorFinder?
+     - How can the trusted badge help tutor?
+     - How can the verified badge help tutor?
+     - How can the trusted badge help me?
+     - How can the verified badge help me?
+     - How can the trusted badge help on TutorFinder?
+     - How can the verified badge help on TutorFinder?
+
+- intent: classes
+  examples: |
+     - class
+     - classes
+     - How can I take classes for my students?
+     - How can I teach classes?
+     - How can I create classes?
+     - Where will the teahcer take classes?
+     - Where will the student take classes?
+     - How can I teach classes on TutorFinder?
+     - How can I take classes on TutorFinder?
+     - How can I create classes on TutorFinder?
+     - How can I teach classes for my students on TutorFinder?
+     - How can I take classes for my students on TutorFinder?
+
+- intent: payment_query
+  examples: |
+     - get paid
+     - how to get paid
+     - how to get paid on TutorFinder
+     - how to get paid for tutoring
+     - how to get paid for teaching
+     - how to get paid for classes
+     - payment to tutor
+     - payment to teacher
+     - pay tutor
+     - pay teacher
+     - payment 
+     - payment method
+     - payment methods
+     - payment options
+     - payment option
+     - How to pay tutors?
+     - How to pay teachers?
+     - How can I pay my teacher on TutorFinder?
+     - How can I pay my tutor on TutorFinder?
+     - How can students make payments to tutors?
+     - How can I get payments?
+     - How to get payement?
+     - How can I get paid on TutorFinder?
+     - How can I get paid by students on TutorFinder?
+     - How can students pay me?
+     - How can I get paid by students?
+     - How can I get paid on TutorFinder?
+     - How a student pay me?
+     - How will a student pay me?
+     - How can a student pay me?
+     - How will i get paid?
+     - How can i get paid?

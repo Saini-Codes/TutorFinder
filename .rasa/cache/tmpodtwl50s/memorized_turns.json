@@ -1,0 +1,13 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVRanpQJmiRJCi2tpYAN90UW8=": "utter_teacher_student_registration",
+    "eJydjkEKgCAQRa/iATqBV4kQsY8JZTGObcS7N2GbVkarmc9/PP5Y6qDKQTiNdRz2qFVpj4l2g1ZPWENiRGFzAgkTokTWyhPAtePIzCDT0H+GzgqCl4bsDX0bw7BukZs4z6IwL0PHP114wHcq": "action_listen",
+    "eJytj90KwjAMRl+lDzBEb/sqpZQy4xbY2pGmgpS9uxnVid7Mv6s25HC+L6bMjSoTwdn5ljEGrUr9uOBH0Oo2DJgYgrA5AQmDQUbWqiMAnjccmRnIVfQ7w0YLgk425BfovTIMvu3lTZyPonBPhp/8r1XTEDkJtCgdXyZBzGG3t48UiUBGEMiskG3UPRzDKdL42Vm1MKz3/K2EvQJUzNWK": "utter_anything_else",
+    "eJy9j1sKg0AMRbcyC5DS/roVkWGwtxrQKJlYEHHvjdha2h/7ol8zIYdzb7JxStzYCc4+FEotp25cPp5Dg9Rdh5qigo3tI8QYYhs1daUAOm04elWIX9DPDBstBKVtJMzQa2UUoajsjdofTeEfDF/5n6vGutVo0Kz0OnSGZIfdPr+nWAQpwaBshfLE3cKJT6007521FMZ6z19LBB60Ii496ohfhucXK4cEaQ==": "action_listen",
+    "eJytj9EKgzAMRX+lHyDDvfZXSinFZS6graTpYBT/fRE3h74o257akMPJvaaMlSoDwd35hjEGrcr8ccH3oNVr6DAxBGFzAhIGg4ysVUsAPO44MjOQm9HvDDspCFrZkJ+gY2EYfHOTN3G+iMKtDD/5t1FTFzkJNCkdPwZBzPlU288VOYGMIJBZIFup93EM10j9sVrrOrD0+VsI+wRk29W1": "utter_anything_else",
+    "eJy9j9EKgkAQRX9lP0CiXv0VkWWxmw7oKLNjINK/N2IZ9qJU9LQ7zOHcO9l4S9zYCa4+FEotp26cP55Dg9Q9hpqigo3tI8QYYhs1daUAettw9KoQP6OfGTZaCErbSJigfWUUoajsjdqfTeFXhq/871Vj3Wo0aFJ6HTpDstPhmL9SLIKUYFC2QHninuHEl1aafWetz8Fyz19LBB60Ii496ohfhud3UJUElA==": "action_listen"
+  }
+}

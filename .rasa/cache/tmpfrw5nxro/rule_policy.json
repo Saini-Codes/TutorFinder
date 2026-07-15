@@ -1,0 +1,36 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]": "utter_greet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"utter_greet\"}, \"user\": {\"intent\": \"greet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_english\"}}]": "utter_ask_tutor_english",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_english\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_tutor_english\"}, \"user\": {\"intent\": \"ask_tutor_english\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_commerce\"}}]": "utter_ask_tutor_commerce",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_commerce\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_tutor_commerce\"}, \"user\": {\"intent\": \"ask_tutor_commerce\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor\"}}]": "utter_ask_tutor",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_tutor\"}, \"user\": {\"intent\": \"ask_tutor\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thank_you\"}}]": "utter_you_are_welcome",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"thank_you\"}}, {\"prev_action\": {\"action_name\": \"utter_you_are_welcome\"}, \"user\": {\"intent\": \"thank_you\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_math\"}}]": "utter_ask_tutor_math",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_math\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_tutor_math\"}, \"user\": {\"intent\": \"ask_tutor_math\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_exam\"}}]": "utter_ask_tutor_exam",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_exam\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_tutor_exam\"}, \"user\": {\"intent\": \"ask_tutor_exam\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_language\"}}]": "utter_ask_tutor_language",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_language\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_tutor_language\"}, \"user\": {\"intent\": \"ask_tutor_language\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_science\"}}]": "utter_ask_tutor_science",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_science\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_tutor_science\"}, \"user\": {\"intent\": \"ask_tutor_science\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_cs\"}}]": "utter_ask_tutor_cs",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tutor_cs\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_tutor_cs\"}, \"user\": {\"intent\": \"ask_tutor_cs\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart",
+      "predicting default action with intent back"
+    ]
+  }
+}
