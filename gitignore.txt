@@ -1,0 +1,8 @@
+.rasa/cache
+Images
+NecessaryFiles
+_pycache_
+data
+pfp
+*.yml
+*.sql
