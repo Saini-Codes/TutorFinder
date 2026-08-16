@@ -1,7 +1,7 @@
 .rasa/cache
 Images
 NecessaryFiles
-_pycache_
+__pycache__
 data
 pfp
 *.yml
